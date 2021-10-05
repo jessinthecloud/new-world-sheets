@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+<title>New World Database Weapon Abilities | NewWorldFans.com</title>
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="preconnect" href="//embed.twitch.tv" />
+<link rel="dns-prefetch" href="//embed.twitch.tv" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet preload prefetch" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=fallback" as="style" crossOrigin="anonymous">
+<style>
+      body {
+        --cmpBgColor: #fff;
+        --cmpTextColor: #333;
+        --cmpLinkColor: #5f5f5f;
+        --cmpPurposesColor: #5f5f5f;
+        --cmpBrandColor: #f65002;
+        --cmpLogo: url('https://cmp.network-n.com/js/img/logo.svg');
+      }
+
+      #nn_skinr, #nn_skinl {
+        position: fixed;
+        top: 50px;
+        left: 50%;
+        margin-left: -945px;
+        z-index: 100;
+      }
+
+      #nn_skinr {
+        margin-left: 645px;
+      }
+
+      #celtra-reveal-wrapper {
+        z-index: 999 !important;
+      }
+
+      @media only screen and (min-width: 991px) {
+        #nn_lb1 {
+          min-width: 728px;
+          min-height: 90px;
+        }
+
+        #nn_mpu1, #nn_mpu2 {
+          min-width: 300px;
+          min-height: 250px;
+        }
+      }
+      @media only screen and (max-width: 990px) {
+          #nn_mobile_mpu1, #nn_mobile_mpu2, #nn_mobile_mpu3{
+          min-width: 300px;
+          min-height: 250px;
+        }
+
+        #nn_mobile_lb1_sticky {
+          min-width: 320px;
+          min-height: 50px;
+        }
+      }
+    </style>
+<link rel="preconnect" href="https://tags.bkrtx.com/">
+<link rel="preconnect" href="https://securepubads.g.doubleclick.net/" crossorigin>
+<link rel="preconnect" href="https://cdn.consentmanager.mgr.consensu.org/" crossorigin>
+<script>window.AdSlots = window.AdSlots || {cmd: [], disableScripts: ['gpt','bk']};</script>
+<script async src="https://tags.bkrtx.com/js/bk-coretag.js"></script>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script async src="https://kumo.network-n.com/dist/app.js" site="new-world-fans"></script>
+<meta name="description" content="All weapon skills and abilities - New World DB">
+<meta name="keywords" content="New World, New World MMO, New World game, MMO, MMORPG, online game, New World Discord, New World Guides, New World Dev Tracker, New World Map">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Zae2OKTG02/3vU4p/g4lVawciSARTlbwfXn/SC/lwksdEvU/HJs8Sv5vsg4FX0cSTo2YTH+dm82VbI0F8814cQ==" />
+<link rel="canonical" href="https://newworldfans.com/db/category/weapon-abilities" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="New World Database Weapon Abilities | NewWorldFans.com">
+<meta property="og:description" content="All weapon skills and abilities - New World DB">
+<meta property="og:image" content="https://newworldfans.com/og-card-fallback.jpg">
+<meta property="og:url" content="https://newworldfans.com/db/category/weapon-abilities">
+<meta name="twitter:title" content="New World Database Weapon Abilities | NewWorldFans.com">
+<meta name="twitter:description" content="All weapon skills and abilities - New World DB">
+<meta name="twitter:image" content="https://newworldfans.com/og-card-fallback.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136942872-1"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136942872-1');
+      </script>
+<link rel="stylesheet" media="screen" href="/packs/css/stylesheet-75b11083.css" />
+<link rel="stylesheet" media="screen" href="/packs/css/search-47dad807.css" />
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body data-locale="en">
+<div id="nn_skinl"></div>
+<div id="nn_skinr"></div>
+<div class="columns navbar-top desktop-only ">
+<div class="column is-2 side-column"></div>
+<div class="column main-column navbar-top-col">
+<div class="container" style="display: flex; align-items: center; justify-content: center;">
+<div class="navbar-top-search desktop-only" style="width: 30%;">
+<div id="searchApp"></div>
+</div>
+<a style="margin-left: auto;" class="navbar-item " href="/devtracker">Dev Tracker</a>
+<a class="navbar-item " href="/discord">Discord</a>
+<div class="navbar-top-divider"></div>
+<div class="navbar-item has-dropdown is-hoverable">
+<a class="navbar-link is-arrowless studioloot-logo">
+<img src="/packs/media/images/studioloot-f57633909df56b83dbf8e7c8cf2a873d.png" alt="StudioLoot" width="114" height="28">
+</a>
+<div class="navbar-dropdown">
+<a class="navbar-item" href="https://studioloot.com" title="StudioLoot">StudioLoot</a>
+<a class="navbar-item" href="https://ashesfans.com" title="Ashes of Creation">AshesFans</a>
+</div>
+</div>
+<a class="navbar-item fa-item twitter" href="https://twitter.com/studioloot" target="_blank" rel="noopener nofollow" title="Follow us on Twitter">
+<i class="fab fa-twitter" style="width: 16px; height: 16px;"></i>
+</a>
+<a style="margin-left: 5px;" class="navbar-item fa-item discord" href="https://discord.gg/svQNCdA" target="_blank" rel="noopener nofollow" title="Join us on Discord">
+<i class="fab fa-discord" style="width: 16px; height: 16px;"></i>
+</a>
+<a style="margin-left: 5px;" class="navbar-item fa-item youtube" href="https://www.youtube.com/c/StudioLoot" target="_blank" rel="noopener nofollow" title="StudioLoot Youtube">
+<i class="fab fa-youtube" style="width: 16px; height: 16px;"></i>
+</a>
+<a style="margin-left: 5px;" class="navbar-item fa-item podcast" href="https://studioloot.com/new-world-to-go-podcast/" target="_blank" rel="noopener" title="New World To Go Podcast">
+<i class="fas fa-podcast" style="width: 16px; height: 16px;"></i>
+</a>
+<div class="user-cp">
+<a class="btn-signup" href="/users/sign_up">Signup</a>
+<a class="btn-login" href="/users/sign_in">Login</a>
+</div>
+<div class="navbar-item has-dropdown is-hoverable lang-dropdown" style="margin-left: 15px;">
+<a class="navbar-link is-arrowless">
+<i class="fas fa-2x fa-globe-americas"></i>
+</a>
+<div class="navbar-dropdown is-boxed is-right">
+<a class="navbar-item locale-switcher" id="locale-switcher-en" data-locale="en" href="/db/category/weapon-abilities?from_locale=en">
+<span>English</span>
+</a>
+<a class="navbar-item locale-switcher" id="locale-switcher-de" data-locale="de" href="/de/db/category/weapon-abilities?from_locale=en">
+<span>Deutsch</span>
+</a>
+<a class="navbar-item locale-switcher" id="locale-switcher-es" data-locale="es" href="/es/db/category/weapon-abilities?from_locale=en">
+<span>Español</span>
+</a>
+<a class="navbar-item locale-switcher" id="locale-switcher-fr" data-locale="fr" href="/fr/db/category/weapon-abilities?from_locale=en">
+<span>Français</span>
+</a>
+<a class="navbar-item locale-switcher" id="locale-switcher-it" data-locale="it" href="/it/db/category/weapon-abilities?from_locale=en">
+<span>Italiano</span>
+</a>
+<a class="navbar-item locale-switcher" id="locale-switcher-pl" data-locale="pl" href="/pl/db/category/weapon-abilities?from_locale=en">
+<span>Polski</span>
+</a>
+<a class="navbar-item locale-switcher" id="locale-switcher-pt" data-locale="pt" href="/pt/db/category/weapon-abilities?from_locale=en">
+<span>Português (BR)</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="column is-2 side-column"></div>
+</div>
+<div class="page-wrapper columns">
+<div class="column is-2 side-column"></div>
+<div class="column is-8 main-column">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container">
+<div class="navbar-brand">
+<a class="navbar-item" href="/">
+<picture>
+<source srcset="/packs/media/images/logo-stain-f526c2812c36c1edcb9062ae4d41acec.webp" type="image/webp">
+<source srcset="/packs/media/images/logo-stain-328bab95f9b307e2fa219d888c6cc05c.png" type="image/png">
+<img src="/packs/media/images/logo-stain-328bab95f9b307e2fa219d888c6cc05c.png" alt="NewWorldFans">
+</picture>
+</a>
+<span class="mobile-title">New World Fans</span>
+<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+<span aria-hidden="true"></span>
+</a>
+</div>
+<div id="navbarMenu" class="navbar-menu">
+<div class="navbar-start">
+<a class="navbar-item " href="/">Home</a>
+<div class="navbar-item has-dropdown is-hoverable">
+<a href="/guides" class="navbar-link is-arrowless">
+Guides
+</a>
+<div class="navbar-dropdown">
+<a class="navbar-item" href="/about-new-world-mmo" title="Definitive New World Guide">Definitive New World Guide</a>
+<a class="navbar-item" href="/articles/new-world-leveling-guide" title="Complete Leveling Guide 1 to 60">Complete Leveling Guide 1 to 60</a>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Beginner Guides" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Beginner Guides">
+<span>Beginner Guides</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+ </div>
+<div class="dropdown-menu" id="menu-Beginner Guides" role="menu">
+<div class="dropdown-content">
+<a href="/articles/new-world-ultimate-beginner-guide" class="dropdown-item" title="Ultimate Beginner Guide">Ultimate Beginner Guide</a>
+<a href="/articles/new-world-armor-guide" class="dropdown-item" title="Armor Guide">Armor Guide</a>
+<a href="/articles/new-world-storage-system" class="dropdown-item" title="Banking &amp; Storage System Guide">Banking &amp; Storage System Guide</a>
+<a href="/articles/how-to-build-a-camp-in-new-world" class="dropdown-item" title="Camp Guide">Camp Guide</a>
+<a href="/articles/character-progression" class="dropdown-item" title="Character Progression">Character Progression</a>
+<a href="/articles/Beginners-Guide-to-Consumables-in-New-World" class="dropdown-item" title="Consumables">Consumables</a>
+<a href="/articles/new-world-corrupted-breach-guide" class="dropdown-item" title="Corrupted Breach Guide">Corrupted Breach Guide</a>
+<a href="/articles/new-world-leveling-tips" class="dropdown-item" title="Early Leveling Guide">Early Leveling Guide</a>
+<a href="/articles/new-world-faction-guide" class="dropdown-item" title="Faction Guide">Faction Guide</a>
+<a href="/articles/how-to-fast-travel-in-new-world" class="dropdown-item" title="Fast Travel Guide">Fast Travel Guide</a>
+<a href="/articles/gathering-in-new-world" class="dropdown-item" title="Gathering Guide">Gathering Guide</a>
+<a href="/articles/how-to-get-fiber-in-new-world" class="dropdown-item" title="Hemp and Fiber Gathering">Hemp and Fiber Gathering</a>
+<a href="/articles/new-world-housing" class="dropdown-item" title="Housing Guide">Housing Guide</a>
+<a href="/articles/how-to-salvage-gear-in-new-world" class="dropdown-item" title="Salvage and Repair Guide">Salvage and Repair Guide</a>
+<a href="/articles/everything-you-need-to-know-about-territories-&amp;-settlements-in-new-world" class="dropdown-item" title="Territories &amp; Settlements">Territories &amp; Settlements</a>
+<a href="/articles/beginners-guide-new-world-weapon-skill-trees" class="dropdown-item" title="Weapon Skill Trees">Weapon Skill Trees</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Crafting" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Crafting">
+<span>Crafting</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Crafting" role="menu">
+<div class="dropdown-content">
+<a href="/articles/new-world-arcana-guide" class="dropdown-item" title="Arcana Guide">Arcana Guide</a>
+<a href="/articles/new-world-cooking-guide" class="dropdown-item" title="Cooking Guide">Cooking Guide</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Expeditions" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Expeditions">
+<span>Expeditions</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Expeditions" role="menu">
+<div class="dropdown-content">
+<a href="/articles/amrine-excavation-expedition-guide" class="dropdown-item" title="Amrine Excavation Guide">Amrine Excavation Guide</a>
+<a href="/articles/dynasty-shipyard-expedition-guide" class="dropdown-item" title="Dynasty Shipyard">Dynasty Shipyard</a>
+<a href="/articles/new-world-starstone-barrows-expedition-guide" class="dropdown-item" title="Starstone Barrows">Starstone Barrows</a>
+<a href="/articles/new-world-the-depths-expedition-guide" class="dropdown-item" title="The Depths ">The Depths </a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Gathering" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Gathering">
+<span>Gathering</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Gathering" role="menu">
+<div class="dropdown-content">
+<a href="/articles/complete-new-world-harvesting-guide" class="dropdown-item" title="Harvesting Guide">Harvesting Guide</a>
+<a href="/articles/complete-new-world-mining-guide" class="dropdown-item" title="Mining Guide">Mining Guide</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-General Tips" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-General Tips">
+<span>General Tips</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-General Tips" role="menu">
+<div class="dropdown-content">
+<a href="/articles/one-ring-to-luck-them-all" class="dropdown-item" title="Double Luck Ring">Double Luck Ring</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Lore" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Lore">
+<span>Lore</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Lore" role="menu">
+<div class="dropdown-content">
+<a href="/articles/new-world-lore" class="dropdown-item" title="New World Lore Intro">New World Lore Intro</a>
+<a href="/articles/The-ancients" class="dropdown-item" title="The Ancients">The Ancients</a>
+<a href="/articles/the-corruption" class="dropdown-item" title="The Corruption">The Corruption</a>
+<a href="/articles/the-obelisks" class="dropdown-item" title="The Obelisks">The Obelisks</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-PvP Modes" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-PvP Modes">
+<span>PvP Modes</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-PvP Modes" role="menu">
+<div class="dropdown-content">
+<a href="/articles/dueling-in-new-world" class="dropdown-item" title="Dueling">Dueling</a>
+<a href="/articles/open-world-pvp-and-faction-control-points" class="dropdown-item" title="Open World PvP">Open World PvP</a>
+<a href="/articles/outpost-rush" class="dropdown-item" title="Outpost Rush">Outpost Rush</a>
+<a href="/articles/new-world-sieges" class="dropdown-item" title="Sieges">Sieges</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Quick References" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Quick References">
+<span>Quick References</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Quick References" role="menu">
+<div class="dropdown-content">
+<a href="/articles/new-world-armor-Affix-chart" class="dropdown-item" title="Affix Chart">Affix Chart</a>
+<a href="/articles/buffs-and-debuffs-in-new-world" class="dropdown-item" title="Buffs Debuffs and DoTs">Buffs Debuffs and DoTs</a>
+<a href="/articles/damage-type-vs-mob-types" class="dropdown-item" title="Damage Type vs Mob Type">Damage Type vs Mob Type</a>
+<a href="/articles/new-world-gathering-infographics" class="dropdown-item" title="Gathering Infographics">Gathering Infographics</a>
+<a href="/articles/gemstone-effects-in-new-world" class="dropdown-item" title="Gem Effects on Armor and Weapons">Gem Effects on Armor and Weapons</a>
+<a href="/articles/herbs-and-spices-by-source-and-location" class="dropdown-item" title="Herbs and Spice Locations">Herbs and Spice Locations</a>
+<a href="/articles/new-world-primary-attribute-quick-references" class="dropdown-item" title="Primary Attributes">Primary Attributes</a>
+<a href="/articles/new-world-critical-chance-and-critical-damage-modifier" class="dropdown-item" title="Weapon Critical Chance and Critical Damage modifiers">Weapon Critical Chance and Critical Damage modifiers</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Weapon Guides" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Weapon Guides">
+<span>Weapon Guides</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Weapon Guides" role="menu">
+<div class="dropdown-content">
+<a href="/articles/epic-quest-for-legendary-weapons" class="dropdown-item" title="Legendary Weapons Quests">Legendary Weapons Quests</a>
+<a href="/articles/new-world-bow-guide" class="dropdown-item" title="Bow">Bow</a>
+<a href="/articles/new-world-fire-staff-guide" class="dropdown-item" title="Fire Staff">Fire Staff</a>
+<a href="/articles/new-world-great-axe-guide" class="dropdown-item" title="Great Axe">Great Axe</a>
+<a href="/articles/new-world-hatchet-guide" class="dropdown-item" title="Hatchet">Hatchet</a>
+<a href="/articles/new-world-ice-gauntlet guide" class="dropdown-item" title="Ice Gauntlet ">Ice Gauntlet </a>
+<a href="/articles/new-world-life-staff-guide" class="dropdown-item" title="Life Staff">Life Staff</a>
+<a href="/articles/new-world-musket-mastery-tree-guide" class="dropdown-item" title="Musket">Musket</a>
+<a href="/articles/new-world-rapier-guide" class="dropdown-item" title="Rapier">Rapier</a>
+<a href="/articles/everything-you-need-to-know-about-the-spear-in-new-world" class="dropdown-item" title="Spear">Spear</a>
+<a href="/articles/new-world-sword-and-shield-guide" class="dropdown-item" title="Sword and Shield">Sword and Shield</a>
+<a href="/articles/new-world-war-hammer-guide" class="dropdown-item" title="War Hammer">War Hammer</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-item has-dropdown is-hoverable">
+<a href="/db" class="navbar-link is-arrowless">
+Database
+</a>
+<div class="navbar-dropdown">
+<div class="nested navbar-item dropdown">
+<div id="trigger-Items" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Items">
+<span>Items</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Items" role="menu">
+<div class="dropdown-content">
+<a href="/db/category/Items" class="dropdown-item" title="All">All</a>
+<a href="/db/category/Ammo" class="dropdown-item" title="Ammo">Ammo</a>
+<a href="/db/category/Armor" class="dropdown-item" title="Armor">Armor</a>
+<a href="/db/category/Consumable" class="dropdown-item" title="Consumable">Consumables</a>
+<a href="/db/category/Resource" class="dropdown-item" title="Resource">Resources</a>
+<a href="/db/category/Weapon" class="dropdown-item" title="Weapon">Weapons</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Recipes" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Recipes">
+<span>Recipes</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Recipes" role="menu">
+<div class="dropdown-content">
+<a href="/db/category/Recipes" class="dropdown-item" title="All">All</a>
+<a href="/db/category/Recipes/Camp" class="dropdown-item" title="Camp">Camp</a>
+<a href="/db/category/Recipes/Arcana" class="dropdown-item" title="Arcana">Arcana</a>
+<a href="/db/category/Recipes/Armoring" class="dropdown-item" title="Armoring">Armoring</a>
+<a href="/db/category/Recipes/Cooking" class="dropdown-item" title="Cooking">Cooking</a>
+<a href="/db/category/Recipes/Engineering" class="dropdown-item" title="Engineering">Engineering</a>
+<a href="/db/category/Recipes/Furnishing" class="dropdown-item" title="Furnishing">Furnishing</a>
+<a href="/db/category/Recipes/Jewelcrafting" class="dropdown-item" title="Jewelcrafting">Jewelcrafting</a>
+<a href="/db/category/Recipes/Weaponsmithing" class="dropdown-item" title="Weaponsmithing">Weaponsmithing</a>
+<a href="/db/category/Recipes/Leatherworking" class="dropdown-item" title="Leatherworking">Leatherworking</a>
+<a href="/db/category/Recipes/Smelting" class="dropdown-item" title="Smelting">Smelting</a>
+<a href="/db/category/Recipes/Stonecutting" class="dropdown-item" title="Stonecutting">Stonecutting</a>
+<a href="/db/category/Recipes/Weaving" class="dropdown-item" title="Weaving">Weaving</a>
+<a href="/db/category/Recipes/Woodworking" class="dropdown-item" title="Woodworking">Woodworking</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Furniture" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Furniture">
+<span>Furniture</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Furniture" role="menu">
+ <div class="dropdown-content">
+<a href="/db/category/Furniture" class="dropdown-item" title="All">All</a>
+<a href="/db/category/Furniture/Beds" class="dropdown-item" title="Beds">Beds</a>
+<a href="/db/category/Furniture/Chairs" class="dropdown-item" title="Chairs">Chairs</a>
+<a href="/db/category/Furniture/Decorations" class="dropdown-item" title="Decorations">Decorations</a>
+<a href="/db/category/Furniture/Lighting" class="dropdown-item" title="Lighting">Lighting</a>
+<a href="/db/category/Furniture/Misc" class="dropdown-item" title="Misc">Misc</a>
+<a href="/db/category/Furniture/Pets" class="dropdown-item" title="Pets">Pets</a>
+<a href="/db/category/Furniture/Shelves" class="dropdown-item" title="Shelves">Shelves</a>
+<a href="/db/category/Furniture/Storage" class="dropdown-item" title="Storage">Storage</a>
+<a href="/db/category/Furniture/Tables" class="dropdown-item" title="Tables">Tables</a>
+<a href="/db/category/Furniture/Trophies" class="dropdown-item" title="Trophies">Trophies</a>
+<a href="/db/category/Furniture/Vegetation" class="dropdown-item" title="Vegetation">Vegetation</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Gems" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Gems">
+<span>Gems</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Gems" role="menu">
+<div class="dropdown-content">
+<a href="/db/category/Gems" class="dropdown-item" title="All">All</a>
+<a href="/db/category/Gems/Armor" class="dropdown-item" title="Armor">Armor</a>
+<a href="/db/category/Gems/Weapon" class="dropdown-item" title="Weapon">Weapons</a>
+<a href="/db/category/Gems/Jewelry" class="dropdown-item" title="Jewelry">Jewelry</a>
+</div>
+</div>
+</div>
+<div class="nested navbar-item dropdown">
+<div id="trigger-Perks" class="dropdown-trigger">
+<button class="button" aria-haspopup="true" aria-controls="menu-Perks">
+<span>Perks</span>
+<span class="icon is-small">
+<i class="fas fa-angle-right" aria-hidden="true"></i>
+</span>
+</button>
+</div>
+<div class="dropdown-menu" id="menu-Perks" role="menu">
+<div class="dropdown-content">
+<a href="/db/category/Perks" class="dropdown-item" title="All">All</a>
+<a href="/db/category/Perks/Armor" class="dropdown-item" title="Armor">Armor</a>
+<a href="/db/category/Perks/Weapon" class="dropdown-item" title="Weapon">Weapons</a>
+<a href="/db/category/Perks/Jewelry" class="dropdown-item" title="Jewelry">Jewelry</a>
+<a href="/db/category/Perks/Amulet" class="dropdown-item" title="Amulet">Amulet</a>
+<a href="/db/category/Perks/Earring" class="dropdown-item" title="Earring">Earring</a>
+<a href="/db/category/Perks/Bag" class="dropdown-item" title="Bag">Bag</a>
+<a href="/db/category/Perks/Ring" class="dropdown-item" title="Ring">Ring</a>
+<a href="/db/category/Perks/Tool" class="dropdown-item" title="Tool">Tool</a>
+<a href="/db/category/Perks/FishingPole" class="dropdown-item" title="FishingPole">Fishing Pole</a>
+<a href="/db/category/Perks/Sword" class="dropdown-item" title="Sword">Sword</a>
+<a href="/db/category/Perks/Shield" class="dropdown-item" title="Shield">Shield</a>
+ <a href="/db/category/Perks/Hatchet" class="dropdown-item" title="Hatchet">Hatchet</a>
+<a href="/db/category/Perks/Rapier" class="dropdown-item" title="Rapier">Rapier</a>
+<a href="/db/category/Perks/GreatAxe" class="dropdown-item" title="GreatAxe">Greataxe</a>
+<a href="/db/category/Perks/Warhammer" class="dropdown-item" title="Warhammer">Warhammer</a>
+<a href="/db/category/Perks/Spear" class="dropdown-item" title="Spear">Spear</a>
+<a href="/db/category/Perks/Bow" class="dropdown-item" title="Bow">Bow</a>
+<a href="/db/category/Perks/Musket" class="dropdown-item" title="Musket">Musket</a>
+<a href="/db/category/Perks/FireStaff" class="dropdown-item" title="FireStaff">Fire Staff</a>
+<a href="/db/category/Perks/LifeStaff" class="dropdown-item" title="LifeStaff">Life Staff</a>
+<a href="/db/category/Perks/IceMagic" class="dropdown-item" title="IceMagic">Ice Magic</a>
+</div>
+</div>
+</div>
+<a class="navbar-item" href="/db/category/Achievements" title="Achievements">Achievements</a>
+<a class="navbar-item" href="/db/category/Creatures" title="Creatures">Creatures</a>
+<a class="navbar-item" href="/db/category/Dye" title="Dye">Dye</a>
+<a class="navbar-item" href="/db/category/Gatherables" title="Gatherables">Gatherables</a>
+<a class="navbar-item" href="/db/category/LootContainers" title="LootContainers">Loot Containers</a>
+<a class="navbar-item" href="/db/category/Lore" title="Lore">Lore</a>
+<a class="navbar-item" href="/db/category/Quests" title="Quests">Quests</a>
+<a class="navbar-item" href="/db/category/weapon-abilities" title="Weapon Abilities">Weapon Abilities</a>
+<a class="navbar-item" href="/db/category/NPCs" title="NPCs">NPCs</a>
+</div>
+</div>
+<a class="navbar-item " href="/builds">Builds</a>
+<div class="navbar-item has-dropdown is-hoverable">
+<a href="/db/category/weapon-abilities" class="navbar-link is-arrowless">
+<span class="translation_missing" title="translation missing: en.weapons">Weapons</span>
+</a>
+<div class="navbar-dropdown">
+<a class="navbar-item" href="/db/category/weapon-abilities/bow" title="Bow">Bow</a>
+<a class="navbar-item" href="/db/category/weapon-abilities/fire-magic" title="Fire Staff"><span class="translation_missing" title="translation missing: en.menu.fire_staff">Fire Staff</span></a>
+<a class="navbar-item" href="/db/category/weapon-abilities/great-axe" title="Great Axe"><span class="translation_missing" title="translation missing: en.menu.great_axe">Great Axe</span></a>
+<a class="navbar-item" href="/db/category/weapon-abilities/hatchet" title="Hatchet">Hatchet</a>
+<a class="navbar-item" href="/db/category/weapon-abilities/ice-magic" title="Ice Gauntlet"><span class="translation_missing" title="translation missing: en.menu.ice_gauntlet">Ice Gauntlet</span></a>
+<a class="navbar-item" href="/db/category/weapon-abilities/life-magic" title="Life Staff"><span class="translation_missing" title="translation missing: en.menu.life_staff">Life Staff</span></a>
+<a class="navbar-item" href="/db/category/weapon-abilities/musket" title="Musket">Musket</a>
+<a class="navbar-item" href="/db/category/weapon-abilities/rapier" title="Rapier">Rapier</a>
+<a class="navbar-item" href="/db/category/weapon-abilities/spear" title="Spear">Spear</a>
+<a class="navbar-item" href="/db/category/weapon-abilities/sword" title="Sword">Sword</a>
+<a class="navbar-item" href="/db/category/weapon-abilities/war-hammer" title="War Hammer"><span class="translation_missing" title="translation missing: en.menu.war_hammer">War Hammer</span></a>
+</div>
+</div>
+<a class="navbar-item " href="/companies">Companies</a>
+<a class="navbar-item" href="https://www.newworld-map.com/" target="_blank" title="New World Map">Map <i class="fas fa-external-link-alt" style="margin-left: 7px; font-size: 1rem; color: grey;"></i></i></a>
+<a class="navbar-item" href="https://newworld-lfg.com/" target="_blank" title="New World LFG">LFG <i class="fas fa-external-link-alt" style="margin-left: 7px; font-size: 1rem; color: grey;"></i></i></a>
+</div>
+<div class="navbar-end mobile-only">
+<div class="user-cp">
+<hr class="navbar-divider">
+<a class="btn-signup navbar-item" href="/users/sign_up">Signup</a>
+<a class="btn-login navbar-item" href="/users/sign_in">Login</a>
+</div>
+</div>
+<div id="loginModal" class="modal" style="z-index: 9999;">
+<div class="modal-background"></div>
+<div class="modal-card" style="width: 400px;">
+<header class="modal-card-head">
+<p class="modal-card-title">Log in</p>
+<button id="cancelLoginForm" class="delete" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+<form action="/users/sign_in" accept-charset="UTF-8" data-remote="true" method="post">
+<div id="loginErrors"></div>
+<div id="loginNotice"></div>
+<div class="field">
+<label class="label" for="user_email">Email</label>
+<div class="control has-icons-left has-icons-right">
+<input id="loginEmail" autofocus="autofocus" autocomplete="email" class="input" placeholder="email@example.com" type="email" name="user[email]" />
+<span class="icon is-small is-left">
+<i class="fas fa-envelope"></i>
+</span>
+</div>
+</div>
+<div class="field">
+<label class="label" for="user_password">Password</label>
+<p class="control has-icons-left">
+<input id="loginPassword" autocomplete="new-password" class="input" placeholder="password" type="password" name="user[password]" />
+<span class="icon is-small is-left">
+<i class="fas fa-lock"></i>
+</span>
+</p>
+</div>
+<div class="field">
+<div class="control">
+<label class="checkbox">
+<input name="user[remember_me]" type="hidden" value="0" /><input id="loginRemember" type="checkbox" value="1" name="user[remember_me]" />
+Remember me
+</label>
+</div>
+</div>
+<div class="actions">
+<p class="control">
+<input type="submit" name="commit" value="Log in" id="loginSubmit" class="button is-primary" data-disable-with="Log in" />
+</p>
+</div>
+</form> </section>
+<footer class="modal-card-foot">
+<div class="signup-link">
+<a id="switchSignupModal">No account yet? Sign up here!</a>
+<br>
+<br>
+<a target="_blank" href="/users/password/new">Forgot your password?</a><br />
+<a target="_blank" href="/users/confirmation/new">Didn&#39;t receive confirmation instructions?</a><br />
+</div>
+</section>
+</div>
+</div>
+<script type="text/javascript">
+  document.getElementById('cancelLoginForm').addEventListener('click', () => {
+    document.getElementById('loginModal').classList.toggle('is-active')
+  })
+  document.getElementById('switchSignupModal').addEventListener('click', () => {
+    document.getElementById('loginModal').classList.toggle('is-active')
+    document.getElementById('signupModal').classList.toggle('is-active')
+  })
+</script>
+<div id="signupModal" class="modal" style="z-index: 9999;">
+<div class="modal-background"></div>
+<div class="modal-card" style="width: 400px;">
+<header class="modal-card-head">
+<p class="modal-card-title">Sign Up</p>
+<button id="cancelSignupForm" class="delete" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+<form action="/users" accept-charset="UTF-8" data-remote="true" method="post">
+<div id="signupErrors"></div>
+<input type="hidden" name="modal" id="modal" value="{:value=&gt;true}" />
+<div class="field">
+<label class="label" for="user_email">Email</label>
+<div class="control has-icons-left has-icons-right">
+<input id="signupEmail" autofocus="autofocus" autocomplete="email" class="input" placeholder="email@example.com" required="required" type="email" name="user[email]" />
+<span class="icon is-small is-left">
+<i class="fas fa-envelope"></i>
+</span>
+</div>
+</div>
+<div class="field">
+<label class="label" for="user_username">Username</label>
+<div class="control">
+<input id="signupUsername" autocomplete="username" class="input" placeholder="Username" required="required" minlength="3" maxlength="32" size="32" type="text" name="user[username]" />
+</div>
+</div>
+<div class="field">
+<label class="label" for="user_password">Password</label>
+<p class="control has-icons-left">
+<input id="signupPassword" autocomplete="new-password" class="input" placeholder="Don&#39;t use the same password as for the game!" required="required" type="password" name="user[password]" />
+<span class="icon is-small is-left">
+<i class="fas fa-lock"></i>
+</span>
+</p>
+</div>
+<div class="field">
+<label class="label" for="user_password_confirmation">Password confirmation</label>
+<p class="control has-icons-left">
+<input id="signupPasswordConfirmation" autocomplete="new-password" class="input" placeholder="Repeat your super-secure password" required="required" type="password" name="user[password_confirmation]" />
+<span class="icon is-small is-left">
+<i class="fas fa-lock"></i>
+</span>
+</p>
+</div>
+<div class="field">
+<p class="control">
+<input name="user[is_email_subscribed]" type="hidden" value="0" /><input id="signupEmailSubscribed" class="checkbox" type="checkbox" value="1" checked="checked" name="user[is_email_subscribed]" /> <span style="font-style: italic;">We would like to occasionally send you emails with news and updates. Please uncheck this option if you don't want that. You will still be able to change this setting later.</span>
+</p>
+</div>
+<script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
+<div data-sitekey="6Lccg8gUAAAAAACg0-65yH3h4m-6UWIVSHCrxtrm" class="g-recaptcha "></div>
+<noscript>
+            <div>
+              <div style="width: 302px; height: 422px; position: relative;">
+                <div style="width: 302px; height: 422px; position: absolute;">
+                  <iframe
+                    src="https://www.recaptcha.net/recaptcha/api/fallback?k=6Lccg8gUAAAAAACg0-65yH3h4m-6UWIVSHCrxtrm"
+                    name="ReCAPTCHA"
+                    style="width: 302px; height: 422px; border-style: none; border: 0; overflow: hidden;">
+                  </iframe>
+                </div>
+              </div>
+              <div style="width: 300px; height: 60px; border-style: none;
+                bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px;
+                background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
+                  margin: 10px 25px; padding: 0px; resize: none;">
+                </textarea>
+              </div>
+            </div>
+          </noscript>
+<div class="field">
+<p class="control">
+<input type="submit" name="commit" value="Sign up" class="button is-primary" data-disable-with="Sign up" />
+</p>
+</div>
+</form> </section>
+<footer class="modal-card-foot">
+<div class="login-link">
+<a id="switchLoginModal">Already have an account? Log in here!</a>
+ </div>
+</footer>
+</div>
+</div>
+<script type="text/javascript">
+  document.getElementById('cancelSignupForm').addEventListener('click', () => {
+    document.getElementById('signupModal').classList.toggle('is-active')
+  })
+  document.getElementById('switchLoginModal').addEventListener('click', () => {
+    document.getElementById('signupModal').classList.toggle('is-active')
+    document.getElementById('loginModal').classList.toggle('is-active')
+  })
+</script>
+</div>
+</div>
+</nav>
+<section class="section main">
+<div class="container">
+
+<div class="center with-padding-bottom desktop-only header-ad">
+<div id="nn_lb1"></div>
+</div>
+<div class="center">
+</div>
+<nav class="breadcrumb is-medium-desktop" aria-label="breadcrumbs">
+<ul>
+<li><a href="/" aria-current="page">Home</a></li>
+<li><a href="/db" aria-current="page">Database</a></li>
+<li class="is-active"><a href="/db/category/weapon-abilities" aria-current="page">Weapon Abilities</a></li>
+</ul>
+</nav>
+<div id="dbApp" class="db-page">
+<div class="page">
+<h1 class="center" style="margin-bottom: 40px;">Weapons, Abilities &amp; Skill Trees</h1>
+<p>In New World players can wield up to two weapon sets. You can earn up to 19 skill points through usage. These allow you to unlock up to 6 active and around 30 passive skills in two different skill trees for each weapon.</p>
+<p>Weapons in New World fall into one of four different categories: One-Handed, Two-Handed, Ranged and Magic. All weapons gain bonus damage from different attribute combinations. The Sword benefits from Strength primarily and Dexterity secondary while the War Hammer benefits solely from Strength. We list all of the attribute bonuses on the individual weapon pages.</p>
+<br><br>
+<div class="columns">
+<div class="column is-one-quarter">
+<h3 style="font-size: 1.2rem; margin-bottom: 15px;">One-Handed Weapons</h3>
+<a href="/db/category/weapon-abilities/sword" title="New World Sword Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Straight Sword</h4>
+<img class="article-thumbnail small" alt="New World Sword Skills" src="/packs/media/images/weapons/sword-b476b7bf9ec466fe1f4e61620ece4bbb.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/rapier" title="New World Rapier Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Rapier</h4>
+<img class="article-thumbnail small" alt="New World Rapier Skills" src="/packs/media/images/weapons/rapier-210a1c2a733b9f58443cd4fb02525f3c.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/hatchet" title="New World Hatchet Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Hatchet</h4>
+<img class="article-thumbnail small" alt="New World Hatchet Skills" src="/packs/media/images/weapons/hatchet-fe6bec9d0ff7b8770c21c41af4659212.png" />
+</div>
+</div>
+</a>
+</div>
+<div class="column is-one-quarter">
+<h3 style="font-size: 1.2rem; margin-bottom: 15px;">Two-Handed Weapons</h3>
+<a href="/db/category/weapon-abilities/spear" title="New World Spear Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Spear</h4>
+<img class="article-thumbnail small" alt="New World Spear Skills" src="/packs/media/images/weapons/spear-553bba0f41311721895681a367549916.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/great-axe" title="New World Great Axe Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Great Axe</h4>
+<img class="article-thumbnail small" alt="New World Great Axe Skills" src="/packs/media/images/weapons/greataxe-05e2c1615a98166a309f6005c27d8a03.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/war-hammer" title="New World War Hammer Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">War Hammer</h4>
+<img class="article-thumbnail small" alt="New World War Hammer Skills" src="/packs/media/images/weapons/warhammer-854ce4bc4753ec627f39f16b9893063d.png" />
+</div>
+</div>
+</a>
+</div>
+<div class="column is-one-quarter">
+<h3 style="font-size: 1.2rem; margin-bottom: 15px;">Ranged Weapons</h3>
+<a href="/db/category/weapon-abilities/bow" title="New World Bow Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Bow</h4>
+<img class="article-thumbnail small" alt="New World Bow Skills" src="/packs/media/images/weapons/bow-95d49bb1a3b738d876fec3f04e5b9c32.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/musket" title="New World Musket Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Musket</h4>
+<img class="article-thumbnail small" alt="New World Musket Skills" src="/packs/media/images/weapons/musket-1295fdc9368babfa4ea16c554a1b4a38.png" />
+</div>
+</div>
+</a>
+</div>
+<div class="column is-one-quarter">
+<h3 style="font-size: 1.2rem; margin-bottom: 15px;">Magic</h3>
+<a href="/db/category/weapon-abilities/fire-magic" title="New World Fire Staff Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Fire Staff</h4>
+<img class="article-thumbnail small" alt="New World Fire Staff Skills" src="/packs/media/images/weapons/firestaff-d36a91a72362ef2dd2df08a8ddcab7c9.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/life-magic" title="New World Life Staff Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Life Staff</h4>
+<img class="article-thumbnail small" alt="New World Life Staff Skills" src="/packs/media/images/weapons/lifestaff-a166060386164b255bf0a396b7e876a6.png" />
+</div>
+</div>
+</a>
+<a href="/db/category/weapon-abilities/ice-magic" title="New World Ice Gauntlet Skills" class="article-link">
+<div class="article-container" style="padding-bottom: 10px;">
+<div class="article-excerpt" style="text-align: center;">
+<h4 class="article-title" style="margin: 15px 0;">Ice Gauntlet</h4>
+<img class="article-thumbnail small" alt="New World Ice Gauntlet Skills" src="/packs/media/images/weapons/icegauntlet-7351ec00ae2893e9e06efe6d795f7248.png" />
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div id="nn_mobile_lb2"></div>
+<div class="nn_player_container">
+<div id="nn_player"></div>
+</div>
+</div>
+</section>
+<footer>
+© 2021 NewWorldFans.com - New World is a trademark of Amazon Game Studios. We are not affiliated with or endorsed by Amazon Game Studios.<br />
+<br />
+<ul>
+<li><a href="/about">About</a></li>
+<li><a href="/jobs">Jobs</a></li>
+<li><a href="/api">API</a></li>
+<li><a href="/privacy_policy">Privacy Policy</a></li>
+<li><a class="nn-cmp-show" href="#">Manage Cookie Settings</a></li>
+</ul>
+</footer>
+</div>
+<div class="column is-2 side-column"></div>
+</div>
+<div id="nn_mobile_lb1_sticky"></div>
+<div id="nn_1by1"></div>
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+<script type="text/javascript">
+      window.locale = 'en'
+      window.I18n = {"date":{"formats":{"default":"%Y-%m-%d","short":"%b %d","long":"%B %d, %Y"},"day_names":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"abbr_day_names":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"month_names":[null,"January","February","March","April","May","June","July","August","September","October","November","December"],"abbr_month_names":[null,"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"order":["year","month","day"]},"time":{"formats":{"default":"%a, %d %b %Y %H:%M:%S %z","short":"%d %b %H:%M","long":"%B %d, %Y %H:%M"},"am":"am","pm":"pm"},"support":{"array":{"words_connector":", ","two_words_connector":" and ","last_word_connector":", and "}},"number":{"format":{"separator":".","delimiter":",","precision":3,"significant":false,"strip_insignificant_zeros":false},"currency":{"format":{"format":"%u%n","unit":"$","separator":".","delimiter":",","precision":2,"significant":false,"strip_insignificant_zeros":false}},"percentage":{"format":{"delimiter":"","format":"%n%"}},"precision":{"format":{"delimiter":""}},"human":{"format":{"delimiter":"","precision":3,"significant":true,"strip_insignificant_zeros":true},"storage_units":{"format":"%n %u","units":{"byte":{"one":"Byte","other":"Bytes"},"kb":"KB","mb":"MB","gb":"GB","tb":"TB","pb":"PB","eb":"EB"}},"decimal_units":{"format":"%n %u","units":{"unit":"","thousand":"Thousand","million":"Million","billion":"Billion","trillion":"Trillion","quadrillion":"Quadrillion"}}},"nth":{"ordinals":{},"ordinalized":{}}},"errors":{"format":"%{attribute} %{message}","messages":{"model_invalid":"Validation failed: %{errors}","inclusion":"is not included in the list","exclusion":"is reserved","invalid":"is invalid","confirmation":"doesn't match %{attribute}","accepted":"must be accepted","empty":"can't be empty","blank":"can't be blank","present":"must be blank","too_long":{"one":"is too long (maximum is 1 character)","other":"is too long (maximum is %{count} characters)"},"too_short":{"one":"is too short (minimum is 1 character)","other":"is too short (minimum is %{count} characters)"},"wrong_length":{"one":"is the wrong length (should be 1 character)","other":"is the wrong length (should be %{count} characters)"},"not_a_number":"is not a number","not_an_integer":"must be an integer","greater_than":"must be greater than %{count}","greater_than_or_equal_to":"must be greater than or equal to %{count}","equal_to":"must be equal to %{count}","less_than":"must be less than %{count}","less_than_or_equal_to":"must be less than or equal to %{count}","other_than":"must be other than %{count}","odd":"must be odd","even":"must be even","required":"must exist","taken":"has already been taken","already_confirmed":"was already confirmed, please try signing in","confirmation_period_expired":"needs to be confirmed within %{period}, please request a new one","expired":"has expired, please request a new one","not_found":"not found","not_locked":"was not locked","not_saved":{"one":"1 error prohibited this %{resource} from being saved:","other":"%{count} errors prohibited this %{resource} from being saved:"},"validate_sign_up_params":"Please submit proper sign up data in request body.","validate_account_update_params":"Please submit proper account update data in request body.","not_email":"is not an email"},"template":{"body":"There were problems with the following fields:","header":{"one":"1 error prohibited this %{model} from being saved","other":"%{count} errors prohibited this %{model} from being saved"}}},"activerecord":{"errors":{"messages":{"record_invalid":"Validation failed: %{errors}","restrict_dependent_destroy":{"has_one":"Cannot delete record because a dependent %{record} exists","has_many":"Cannot delete record because dependent %{record} exist"}}},"models":{"comment":{"one":"Comment","other":"Comments"},"active_admin/comment":{"one":"Comment","other":"Comments"}},"attributes":{"active_admin/comment":{"author_type":"Author type","body":"Body","created_at":"Created","namespace":"Namespace","resource_type":"Resource type","updated_at":"Updated"}}},"datetime":{"distance_in_words":{"half_a_minute":"half a minute","less_than_x_seconds":{"one":"less than 1 second","other":"less than %{count} seconds"},"x_seconds":{"one":"1 second","other":"%{count} seconds"},"less_than_x_minutes":{"one":"less than a minute","other":"less than %{count} minutes"},"x_minutes":{"one":"1 minute","other":"%{count} minutes"},"about_x_hours":{"one":"about 1 hour","other":"about %{count} hours"},"x_days":{"one":"1 day","other":"%{count} days"},"about_x_months":{"one":"about 1 month","other":"about %{count} months"},"x_months":{"one":"1 month","other":"%{count} months"},"about_x_years":{"one":"about 1 year","other":"about %{count} years"},"over_x_years":{"one":"over 1 year","other":"over %{count} years"},"almost_x_years":{"one":"almost 1 year","other":"almost %{count} years"},"x_years":{"one":"1 year","other":"%{count} years"}},"prompts":{"year":"Year","month":"Month","day":"Day","hour":"Hour","minute":"Minute","second":"Second"}},"helpers":{"select":{"prompt":"Please select"},"submit":{"create":"Create %{model}","update":"Update %{model}","submit":"Save %{model}"},"page_entries_info":{"entry":{"zero":"entries","one":"entry","other":"entries"},"one_page":{"display_entries":{"zero":"No %{entry_name} found","one":"Displaying \u003cb\u003e1\u003c/b\u003e %{entry_name}","other":"Displaying \u003cb\u003eall %{count}\u003c/b\u003e %{entry_name}"}},"more_pages":{"display_entries":"Displaying %{entry_name} \u003cb\u003e%{first}\u0026nbsp;-\u0026nbsp;%{last}\u003c/b\u003e of \u003cb\u003e%{total}\u003c/b\u003e in total"}}},"ransack":{"search":"search","predicate":"predicate","and":"and","or":"or","any":"any","all":"all","combinator":"combinator","attribute":"attribute","value":"value","condition":"condition","sort":"sort","asc":"ascending","desc":"descending","predicates":{"eq":"equals","eq_any":"equals any","eq_all":"equals all","not_eq":"not equal to","not_eq_any":"not equal to any","not_eq_all":"not equal to all","matches":"matches","matches_any":"matches any","matches_all":"matches all","does_not_match":"doesn't match","does_not_match_any":"doesn't match any","does_not_match_all":"doesn't match all","lt":"less than","lt_any":"less than any","lt_all":"less than all","lteq":"less than or equal to","lteq_any":"less than or equal to any","lteq_all":"less than or equal to all","gt":"greater than","gt_any":"greater than any","gt_all":"greater than all","gteq":"greater than or equal to","gteq_any":"greater than or equal to any","gteq_all":"greater than or equal to all","in":"in","in_any":"in any","in_all":"in all","not_in":"not in","not_in_any":"not in any","not_in_all":"not in all","cont":"contains","cont_any":"contains any","cont_all":"contains all","not_cont":"doesn't contain","not_cont_any":"doesn't contain any","not_cont_all":"doesn't contain all","start":"starts with","start_any":"starts with any","start_all":"starts with all","not_start":"doesn't start with","not_start_any":"doesn't start with any","not_start_all":"doesn't start with all","end":"ends with","end_any":"ends with any","end_all":"ends with all","not_end":"doesn't end with","not_end_any":"doesn't end with any","not_end_all":"doesn't end with all","true":"is true","false":"is false","present":"is present","blank":"is blank","null":"is null","not_null":"is not null"}},"flash":{"actions":{"create":{"notice":"%{resource_name} was successfully created."},"update":{"notice":"%{resource_name} was successfully updated."},"destroy":{"notice":"%{resource_name} was successfully destroyed.","alert":"%{resource_name} could not be destroyed."}}},"will_paginate":{"previous_label":"\u0026#8592; Previous","next_label":"Next \u0026#8594;","page_gap":"\u0026hellip;","container_aria_label":"Pagination","page_aria_label":"Page %{page}","page_entries_info":{"single_page":{"zero":"No %{model} found","one":"Displaying 1 %{model}","other":"Displaying all %{count} %{model}"},"single_page_html":{"zero":"No %{model} found","one":"Displaying \u003cb\u003e1\u003c/b\u003e %{model}","other":"Displaying \u003cb\u003eall\u0026nbsp;%{count}\u003c/b\u003e %{model}"},"multi_page":"Displaying %{model} %{from} - %{to} of %{count} in total","multi_page_html":"Displaying %{model} \u003cb\u003e%{from}\u0026nbsp;-\u0026nbsp;%{to}\u003c/b\u003e of \u003cb\u003e%{count}\u003c/b\u003e in total"}},"recaptcha":{"errors":{"verification_failed":"reCAPTCHA verification failed, please try again.","recaptcha_unreachable":"Oops, we failed to validate your reCAPTCHA response. Please try again."}},"i18n":{"plural":{"keys":["one","other"],"rule":{}}},"views":{"pagination":{"first":"\u0026laquo; First","last":"Last \u0026raquo;","previous":"\u0026lsaquo; Prev","next":"Next \u0026rsaquo;","truncate":"\u0026hellip;"}},"formtastic":{"yes":"Yes","no":"No","create":"Create %{model}","update":"Update %{model}","submit":"Submit %{model}","cancel":"Cancel %{model}","reset":"Reset %{model}","required":"required"},"active_admin":{"dashboard":"Dashboard","dashboard_welcome":{"welcome":"Welcome to Active Admin. This is the default dashboard page.","call_to_action":"To add dashboard sections, checkout 'app/admin/dashboard.rb'"},"view":"View","edit":"Edit","delete":"Delete","delete_confirmation":"Are you sure you want to delete this?","create_another":"Create another %{model}","new_model":"New %{model}","edit_model":"Edit %{model}","delete_model":"Delete %{model}","details":"%{model} Details","cancel":"Cancel","empty":"Empty","previous":"Previous","next":"Next","download":"Download:","has_many_new":"Add New %{model}","has_many_delete":"Delete","has_many_remove":"Remove","move":"Move","filters":{"buttons":{"filter":"Filter","clear":"Clear Filters"},"predicates":{"contains":"Contains","equals":"Equals","starts_with":"Starts with","ends_with":"Ends with","greater_than":"Greater than","less_than":"Less than","gteq_datetime":"Greater or equal to","lteq_datetime":"Lesser or equal to","from":"From","to":"To"}},"scopes":{"all":"All"},"search_status":{"headline":"Search status:","current_scope":"Scope:","current_filters":"Current filters:","no_current_filters":"None"},"status_tag":{"yes":"Yes","no":"No","unset":"No"},"main_content":"Please implement %{model}#main_content to display content.","logout":"Logout","powered_by":"Powered by %{active_admin} %{version}","sidebars":{"filters":"Filters","search_status":"Search Status"},"pagination":{"empty":"No %{model} found","one":"Displaying \u003cb\u003e1\u003c/b\u003e %{model}","one_page":"Displaying \u003cb\u003eall %{n}\u003c/b\u003e %{model}","multiple":"Displaying %{model} \u003cb\u003e%{from}\u0026nbsp;-\u0026nbsp;%{to}\u003c/b\u003e of \u003cb\u003e%{total}\u003c/b\u003e in total","multiple_without_total":"Displaying %{model} \u003cb\u003e%{from}\u0026nbsp;-\u0026nbsp;%{to}\u003c/b\u003e","per_page":"Per page: ","entry":{"one":"entry","other":"entries"}},"any":"Any","blank_slate":{"content":"There are no %{resource_name} yet.","link":"Create one"},"dropdown_actions":{"button_label":"Actions"},"batch_actions":{"button_label":"Batch Actions","default_confirmation":"Are you sure you want to do this?","delete_confirmation":"Are you sure you want to delete these %{plural_model}?","succesfully_destroyed":{"one":"Successfully deleted 1 %{model}","other":"Successfully deleted %{count} %{plural_model}"},"selection_toggle_explanation":"(Toggle Selection)","action_label":"%{title} Selected","labels":{"destroy":"Delete"}},"comments":{"created_at":"Created","resource_type":"Resource Type","author_type":"Author Type","body":"Body","author":"Author","add":"Add Comment","delete":"Delete Comment","delete_confirmation":"Are you sure you want to delete these comments?","resource":"Resource","no_comments_yet":"No comments yet.","author_missing":"Anonymous","title_content":"Comments (%{count})","errors":{"empty_text":"Comment wasn't saved, text was empty."}},"devise":{"username":{"title":"Username"},"email":{"title":"Email"},"subdomain":{"title":"Subdomain"},"password":{"title":"Password"},"password_confirmation":{"title":"Confirm Password"},"sign_up":{"title":"Sign up","submit":"Sign up"},"login":{"title":"Login","remember_me":"Remember me","submit":"Login"},"reset_password":{"title":"Forgot your password?","submit":"Reset My Password"},"change_password":{"title":"Change your password","submit":"Change my password"},"unlock":{"title":"Resend unlock instructions","submit":"Resend unlock instructions"},"resend_confirmation_instructions":{"title":"Resend confirmation instructions","submit":"Resend confirmation instructions"},"links":{"sign_up":"Sign up","sign_in":"Sign in","forgot_your_password":"Forgot your password?","sign_in_with_omniauth_provider":"Sign in with %{provider}","resend_unlock_instructions":"Resend unlock instructions","resend_confirmation_instructions":"Resend confirmation instructions"}},"unsupported_browser":{"headline":"Please note that ActiveAdmin no longer supports Internet Explorer versions 8 or less.","recommendation":"We recommend that you \u003ca href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e to improve your experience.","turn_off_compatibility_view":"If you are using IE 9 or later, make sure you \u003ca href=\"https://support.microsoft.com/en-us/help/17471\"\u003eturn off \"Compatibility View\"\u003c/a\u003e."},"access_denied":{"message":"You are not authorized to perform this action."},"index_list":{"table":"Table","block":"List","grid":"Grid","blog":"Blog"}},"devise":{"confirmations":{"confirmed":"Your email address has been successfully confirmed.","send_instructions":"You will receive an email with instructions for how to confirm your email address in a few minutes.","send_paranoid_instructions":"If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."},"failure":{"already_authenticated":"You are already signed in.","inactive":"Your account is not activated yet.","invalid":"Invalid %{authentication_keys} or password.","locked":"Your account is locked.","last_attempt":"You have one more attempt before your account is locked.","not_found_in_database":"Invalid %{authentication_keys} or password.","timeout":"Your session expired. Please sign in again to continue.","unauthenticated":"You need to sign in or sign up before continuing.","unconfirmed":"You have to confirm your email address before continuing.","deleted_account":"This account is not active."},"mailer":{"confirmation_instructions":{"subject":"Confirmation instructions","confirm_link_msg":"You can confirm your account email through the link below:","confirm_account_link":"Confirm my account"},"reset_password_instructions":{"subject":"Reset password instructions","request_reset_link_msg":"Someone has requested a link to change your password. You can do this through the link below.","password_change_link":"Change my password","ignore_mail_msg":"If you didn't request this, please ignore this email.","no_changes_msg":"Your password won't change until you access the link above and create a new one."},"unlock_instructions":{"subject":"Unlock instructions","account_lock_msg":"Your account has been locked due to an excessive number of unsuccessful sign in attempts.","unlock_link_msg":"Click the link below to unlock your account:","unlock_link":"Unlock my account"},"email_changed":{"subject":"Email Changed"},"password_change":{"subject":"Password Changed"}},"omniauth_callbacks":{"failure":"Could not authenticate you from %{kind} because \"%{reason}\".","success":"Successfully authenticated from %{kind} account.","user":{"email_has_already_been_taken":"Email has already been taken","email_missing":"You must have a verified email address linked to your Discord account."}},"passwords":{"no_token":"You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.","send_instructions":"You will receive an email with instructions on how to reset your password in a few minutes.","send_paranoid_instructions":"If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.","updated":"Your password has been changed successfully. You are now signed in.","updated_not_active":"Your password has been changed successfully."},"registrations":{"destroyed":"Bye! Your account has been successfully cancelled. We hope to see you again soon.","signed_up":"Welcome! You have signed up successfully.","signed_up_but_inactive":"You have signed up successfully. However, we could not sign you in because your account is not yet activated.","signed_up_but_locked":"You have signed up successfully. However, we could not sign you in because your account is locked.","signed_up_but_unconfirmed":"A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.","update_needs_confirmation":"You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.","updated":"Your account has been updated successfully.","updated_but_not_signed_in":"Your account has been updated successfully, but since your password was changed, you need to sign in again"},"sessions":{"signed_in":"","signed_out":"","already_signed_out":""},"unlocks":{"send_instructions":"You will receive an email with instructions for how to unlock your account in a few minutes.","send_paranoid_instructions":"If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.","unlocked":"Your account has been unlocked successfully. Please sign in to continue."}},"devise_token_auth":{"sessions":{"not_confirmed":"A confirmation email was sent to your account at '%{email}'. You must follow the instructions in the email before your account can be activated","bad_credentials":"Invalid login credentials. Please try again.","not_supported":"Use POST /sign_in to sign in. GET is not supported.","user_not_found":"User was not found or was not logged in."},"token_validations":{"invalid":"Invalid login credentials"},"registrations":{"missing_confirm_success_url":"Missing 'confirm_success_url' parameter.","redirect_url_not_allowed":"Redirect to '%{redirect_url}' not allowed.","email_already_exists":"An account already exists for '%{email}'","account_with_uid_destroyed":"Account with UID '%{uid}' has been destroyed.","account_to_destroy_not_found":"Unable to locate account for destruction.","user_not_found":"User not found."},"omniauth":{"not_allowed_redirect_url":"Redirect to '%{redirect_url}' not allowed."},"passwords":{"missing_email":"You must provide an email address.","missing_redirect_url":"Missing redirect URL.","not_allowed_redirect_url":"Redirect to '%{redirect_url}' not allowed.","sended":"An email has been sent to '%{email}' containing instructions for resetting your password.","sended_paranoid":"If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.","user_not_found":"Unable to find user with email '%{email}'.","password_not_required":"This account does not require a password. Sign in using your '%{provider}' account instead.","missing_passwords":"You must fill out the fields labeled 'Password' and 'Password confirmation'.","successfully_updated":"Your password has been successfully updated."},"unlocks":{"missing_email":"You must provide an email address.","sended":"An email has been sent to '%{email}' containing instructions for unlocking your account.","sended_paranoid":"If your account exists, you will receive an email with instructions for how to unlock it in a few minutes.","user_not_found":"Unable to find user with email '%{email}'."},"confirmations":{"sended":"An email has been sent to '%{email}' containing instructions for confirming your account.","sended_paranoid":"If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.","user_not_found":"Unable to find user with email '%{email}'.","missing_email":"You must provide an email address."}},"hello":"hello","welcome":"welcome","translation_in_progress_html":"We are still in the process of translating the site for this language, so you will encounter missing translations. Articles and guides are only available in English right now. If you would like to help us translate, please join our \u003ca href=\"https://discord.gg/svQNCdA\" rel=\"nofollow\"\u003eDiscord\u003c/a\u003e.","default_site_title":"NewWorldFans.com | Builds, Guides, Maps and Tools for Amazon's New World MMO","default_site_description":"The ultimate New World fansite, featuring Guides \u0026 Tools for Amazon's New World MMO, the best builds, tools and map!","home":"Home","database":"Database","guides":"Guides","build":"Build","builds":"Builds","map_title":"Map","devtracker":"Dev Tracker","signup":"Signup","login":"Login","logout":"Logout","settings":"Settings","my_builds":"My Builds","view_all_builds":"View All Builds","discord":"Discord","twitch_bot":"Twitch Bot","abilities":"Abilities","creatures":{"loot_table_note":"Drops depend on level and location. Experimental! Please leave a comment if you believe this data to be wrong.","level_heading":"Level","type_label":"Type","health_label":"Health","kill_xp_label":"Kill XP","currency_reward_label":"Currency Reward","weak_against":"weak against","more_damage":"more damage","strong_against":"strong against","less_damage":"less damage","categories_heading":"Categories","location":"Location","possible_loot_heading":"Possible Loot"},"perks":{"items_label":"Items","prefix_label":"Prefix","suffix_label":"Suffix","name_priority_label":"Name Priority","affix_label":"Affix","equip_ability_label":"Equip Ability"},"quests":{"level_label":"Level","quest_giver_label":"Quest Giver","turn_in_npc_label":"Turn in NPC","turn_in_coordinates_label":"Turn in Coordinates","territory_label":"Territory","pre_requisites_label":"Pre Requisites","required_level_label":"Required Level","pre_requisite_quest_label":"Pre Requisite Quest","follow_up_to_label":"Follow-up to","reward_heading":"Reward","territory_standing_label":"Territory Standing","tasks_heading":"Tasks","quantity_label":"Quantity","drop_chance_label":"Drop Chance","location_label":"Location","item_label":"Item","dialog_heading":"Dialog","introduction_heading":"Introduction","in_progress_heading":"In Progress","completion_heading":"Completion"},"lore":"Lore","news":"News","all":"All","new_world_release":"New World Release","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","release_countdown_description":"New World Release is on","view_all":"View All","featured_items":"Featured Items","patreon_title":"Support Us and Get Ad-Free Browsing!","patreon_ad_free_perk":"Ad-free website","patreon_preview_perk":"Preview work-in-progress","patreon_discord_perk":"Discord roles \u0026 exclusive channel","patreon_badge_perk":"Supporter badge","patreon_promoted_company_perk":"Promote your company","patreon_cta":"Support us on Patreon","promoted_stream":"Live Event","live_streams":"Live Streams","discord_bot_cta_html":"Get the \u003ca href=\"/discord\"\u003eDiscord bot\u003c/a\u003e for your server to \u003cspan class=\"bold\"\u003ebe alerted of news \u0026amp; dev posts\u003c/span\u003e! Gain access to commands that help you \u003cspan class=\"bold\"\u003esearch items, builds \u0026amp; more\u003c/span\u003e!","discord_bot_cta_btn":"Get Discord Bot","twitch_bot_cta_html":"Get the \u003ca href=\"/twitch_bot\"\u003eTwitch bot\u003c/a\u003e for your stream to gain access to commands that help you \u003cspan class=\"bold\"\u003esearch items, builds \u0026amp; more\u003c/span\u003e!","twitch_bot_cta_btn":"Get Twitch Bot","footer_copyright":"NewWorldFans.com - New World is a trademark of Amazon Game Studios. We are not affiliated with or endorsed by Amazon Game Studios.","footer_about":"About","report":"Report this content","report_reason_request":"Please leave a reason for your report!","load_more":"Load More","meta_builds":"Meta Builds","popular_builds":"Popular Builds","build_create_btn":"Create a Build","name":"Name","author":"Author","purpose":"Purpose","weapon":"Weapon","sort_by":"Sort By","filter":"Filter","weapon_sets":"Weapon Sets","likes":"Likes","last_updated":"Last Updated","like":"Like","comment_login_cta":"Log in to comment!","article_next":"\u003c Next article","article_previous":"Previous article \u003e","edit":"Edit","no_results":"Your search didn't return anything :(","strength":"Strength","dexterity":"Dexterity","intelligence":"Intelligence","focus":"Focus","constitution":"Constitution","expedition_label":"Expedition","very":"Very","moderately":"Moderately","slightly":"Slightly","azoth":"Azoth","gold":"Gold","xp":"XP","time_ago":"%{time} ago","search":{"search_placeholder":"Find items, quests, recipes and guides...","no_results":"No results, please try a different search term.","weapons":"Weapons","armor":"Armor","consumables":"Consumables","resources":"Resources","ammo":"Ammo","furniture":"Furniture","recipes":"Recipes","perks":"Perks","gems":"Gems","creatures":"Creatures","quests":"Quests","npcs":"Npcs","lore_pages":"Lore Pages","abilities":"Abilities","resource_nodes":"Resource Nodes","loot_containers":"Loot Containers","posts":"Posts"},"menu":{"items":"Items","recipes":"Recipes","furniture":"Furniture","gems":"Gems","perks":"Perks","achievements":"Achievements","creatures":"Creatures","dye":"Dye","gatherables":"Gatherables","lootcontainers":"Loot Containers","lore":"Lore","quests":"Quests","weapon_abilities":"Weapon Abilities","npcs":"NPCs","all":"All","ammo":"Ammo","armor":"Armor","consumable":"Consumables","resource":"Resources","weapon":"Weapons","camp":"Camp","arcana":"Arcana","armoring":"Armoring","cooking":"Cooking","engineering":"Engineering","furnishing":"Furnishing","jewelcrafting":"Jewelcrafting","weaponsmithing":"Weaponsmithing","leatherworking":"Leatherworking","smelting":"Smelting","stonecutting":"Stonecutting","weaving":"Weaving","woodworking":"Woodworking","beds":"Beds","chairs":"Chairs","decorations":"Decorations","lighting":"Lighting","misc":"Misc","pets":"Pets","shelves":"Shelves","storage":"Storage","tables":"Tables","trophies":"Trophies","vegetation":"Vegetation","jewelry":"Jewelry","amulet":"Amulet","earring":"Earring","ring":"Ring","bag":"Bag","amulets":"Amulets","earrings":"Earrings","rings":"Rings","bags":"Bags","tool":"Tool","tools":"Tools","fishingpole":"Fishing Pole","sword":"Sword","shield":"Shield","hatchet":"Hatchet","rapier":"Rapier","greataxe":"Greataxe","warhammer":"Warhammer","spear":"Spear","bow":"Bow","musket":"Musket","firestaff":"Fire Staff","lifestaff":"Life Staff","icemagic":"Ice Magic","siege":"Siege","outpostrush":"Outpost Rush","head":"Head","chest":"Chest","hands":"Hands","feet":"Feet","legs":"Legs","food":"Food","raw":"Raw","potions":"Potions","coatings":"Coatings","siegeconsumables":"Siege Consumables","outpostrushpotions":"Outpost Rush Potions","outpostrushfood":"Outpost Rush Food","alchemyresource":"Alchemy Resources","bait":"Bait","block":"Block","cloth":"Cloth","dungeonitem":"Dungeon Items","fiber":"Fiber","fish":"Fish","gem":"Gem","ingot":"Ingot","leather":"Leather","lootcontainer":"Loot Container","ore":"Ore","outpostrushonly":"Outpost Rush Only","perkresource":"Perk Resource","rawfood":"Raw Food","rawhide":"Rawhide","repairkit":"Repairkit","siegewaronly":"Siege Only","stone":"Stone","timber":"Timber","wood":"Wood","any":"Any","common":"Common","uncommon":"Uncommon","rare":"Rare","epic":"Epic","legendary":"Legendary","1":"1","2":"2","3":"3","4":"4","5":"5","database":"Database","rarity":"Rarity","tier":"Tier","attributes":"Attributes","type":"Type","offensive":"Offensive","defensive":"Defensive","threat":"Threat","proc":"Proc","gathering":"Gathering","luck":"Luck","territory":"Territory","main_story":"Main Story","brightwood":"Brightwood","cutlass_keys":"Cutlass Keys","ebonscale_reach":"Ebonscale Reach","edengrove":"Edengrove","everfall":"Everfall","first_light":"First Light","great_cleave":"Great Cleave","monarchs_bluffs":"Monarchs Bluffs","mourningdale":"Mourningdale","reekwater":"Reekwater","restless_shore":"Restless Shore","shattered_mountain":"Shattered Mountain","weavers_fen":"Weavers Fen","windsward":"Windsward"},"table":{"header":{"name":"Name","type":"Type","perks":"Perks","rarity":"Rarity","tier":"Tier","gearscore":"Gear Score","source":"Source","rankpoints":"Rank Points","level":"Level","title":"Title","description":"Description","category":"Category","tradeskill":"Tradeskill","req_tradeskill_level":"Req Tradeskill Level","variant_id":"Variant ID","subtitle":"Subtitle","part_of":"Part of","slot":"Slot","req_level":"Req Level","territory":"Territory","xp_reward":"XP Reward","tradeskill_level":"Tradeskill Level","crafting_xp":"Crafting XP","recipe":"Recipe","content":"Content"}},"companies":{"companies_title":"Companies","list_cta":"+ List Your Company","faction":"Faction","region":"Region","server":"Server","language":"Language","style":"Style","focus":"Focus","recruiting":"Recruiting","size":"Size","search":"Search","sort":"Sort By","filter":"Filter","promoted_company_tooltip":"Promoted Company (Patreon Perk)","promote_cta_banner":"Promote your company by subscribing to the Epic Supporter tier on Patreon!","inactive_notice":"This company has not been updated in more than 3 months and might be inactive.","inactive_notice_explanation_html":"This company has not been updated in more than 3 months and might be inactive. If you own this company, please edit and save your listing to remove this message, or promote your company through \u003ca href=\"https://www.patreon.com/studioloot\" target=\"_blank\"\u003ePatreon\u003c/a\u003e to be excluded from the inactivity check."},"item_type":{"ammo":"Ammo","armor":"Armor","resource":"Resource","dye":"Dye","weapon":"Weapon","blueprint":"Blueprint","consumable":"Consumable","currency":"Currency","lore":"Lore"},"weapon_types":{"hatchet":"Hatchet","musket":"Musket","greataxe":"Great Axe","rapier":"Rapier","lifemagic":"Life Staff","bow":"Bow","sword":"Sword","firemagic":"Fire Staff","icemagic":"Ice Gauntlet","warhammer":"War Hammer","spear":"Spear"},"item_class":{"2haxe+armor":"GreatAxe \u0026 Armor","2haxearmor":"GreatAxe \u0026 Armor","2hhammer+armor":"WarHammer \u0026 Armor","2hhammerarmor":"WarHammer \u0026 Armor","alchemyresources":"Alchemy","ammo":"Ammo","ammo+outpostrushonly":"OutpostRushOnly","ammo+siegewaronly":"War","ammosiegewaronly":"War","amulet":"Amulet","amulet+jewelry":"Amulet","armor":"Armor","armor+equippableamulet+equippablering+equippabletoken":"Armor \u0026 Jewelry","armorequippableamuletequippableringequippabletoken":"Armor \u0026 Jewelry","bag":"Bag","blueprint":"Blueprint","blueprint+outpostrushonly":"OutpostRushOnly","blueprint+siegewaronly":"War","blueprint+siegewaronly+invasiononly":"War/Invasion","blueprint+siegewaronly+pvponly":"SiegeWarOnly","blueprint+siegewaronly+siegewarboundbyteamlimit+siegewarattackersplacementrestricted+siegewarattackersonly":"SiegeWarOnly","blueprintsiegewaronly":"War","blueprintsiegewaronlyinvasiononly":"War/Invasion","blueprintsiegewaronlysiegewarboundbyteamlimitsiegewarattackersplacementrestrictedsiegewarattackersonly":"SiegeWarAttackersOnly","bow+armor":"Bow \u0026 Armor","bowarmor":"Bow \u0026 Armor","chest":"Chest","chest+armor":"Chest","chest+armor+heavy":"Chest (Heavy)","chest+armor+light":"Chest (Light)","chest+armor+medium":"Chest (Medium)","coatingancient":"CoatingAncient","coatingangryearth":"CoatingAngryEarth","coatingbeast":"CoatingBeast","coatingcorrupted":"CoatingCorrupted","coatinglost":"CoatingLost","components":"Components","consumable":"Consumable","consumable+food":"Food","consumable+food+outpostrushonly":"OutpostRushOnly","consumable+potion":"Potion","consumable+potion+outpostrushonly":"OutpostRushOnly","consumable+rawfood":"RawFood","consumable+siegewaronly":"War","consumable+weaponoil":"WeaponOil","consumablesiegewaronly":"War","consumableweaponoil":"Weapon Oil","cookingingredients":"Cooking","curatives":"Curatives","currency+fuelcurrency":"FuelCurrency","currencyfuelcurrency":"FuelCurrency","dye":"Dye","equippableamulet":"Amulet","equippableamulet+jewelry":"Amulet","equippableamuletjewelry":"Amulet","equippablechest":"Chest","equippablechest+armor":"Chest","equippablechest+armor+heavy":"Chest (Heavy)","equippablechest+armor+light":"Chest (Light)","equippablechest+armor+medium":"Chest (Medium)","equippablechestarmor":"Chest","equippablechestarmorheavy":"Chest (Heavy)","equippablechestarmorlight":"Chest (Light)","equippablechestarmormedium":"Chest (Medium)","equippablefeet":"Feet","equippablefeet+armor":"Feet","equippablefeet+armor+heavy":"Feet (Heavy)","equippablefeet+armor+light":"Feet (Light)","equippablefeet+armor+medium":"Feet (Medium)","equippablefeetarmor":"Feet","equippablefeetarmorheavy":"Feet (Heavy)","equippablefeetarmorlight":"Feet (Light)","equippablefeetarmormedium":"Feet (Medium)","equippablehands":"Hands","equippablehands+armor":"Hands","equippablehands+armor+heavy":"Hands (Heavy)","equippablehands+armor+light":"Hands (Light)","equippablehands+armor+medium":"Hands (Medium)","equippablehandsarmor":"Hands","equippablehandsarmorheavy":"Hands (Heavy)","equippablehandsarmorlight":"Hands (Light)","equippablehandsarmormedium":"Hands (Medium)","equippablehead":"Head","equippablehead+armor":"Head","equippablehead+armor+heavy":"Head (Heavy)","equippablehead+armor+light":"Head (Light)","equippablehead+armor+medium":"Head (Medium)","equippableheadarmor":"Head","equippableheadarmorheavy":"Head (Heavy)","equippableheadarmorlight":"Head (Light)","equippableheadarmormedium":"Head (Medium)","equippablelegs":"Legs","equippablelegs+armor":"Legs","equippablelegs+armor+heavy":"Legs (Heavy)","equippablelegs+armor+light":"Legs (Light)","equippablelegs+armor+medium":"Legs (Medium)","equippablelegsarmor":"Legs","equippablelegsarmorheavy":"Legs (Heavy)","equippablelegsarmorlight":"Legs (Light)","equippablelegsarmormedium":"Legs (Medium)","equippablemainhand":"MainHand","equippablemainhand+equippabletwohand":"MainHand \u0026 TwoHand","equippablemainhand+equippabletwohand+armor+equippableamulet+equippablering+equippabletoken":"Armor, Weapon \u0026 Jewelry","equippablemainhand+equippabletwohand+equippableoffhand":"Weapons","equippablemainhand+equippabletwohand+equippableoffhand+equippabletool":"Tools \u0026 Weapons","equippablemainhand+equippabletwohand+shield":"MainHand, TwoHand \u0026 Shield","equippablemainhand+firestaff+magic":"FireStaff","equippablemainhand+hatchet+melee":"Hatchet","equippablemainhand+lifestaff+magic":"Life Staff","equippablemainhand+sword":"Sword","equippablemainhand+sword+melee":"Sword","equippablemainhandequippabletwohand":"MainHand \u0026 TwoHand","equippablemainhandequippabletwohandarmorequippableamuletequippableringequippabletoken":"Armor, Weapon \u0026 Jewelry","equippablemainhandequippabletwohandequippableoffhand":"Weapons","equippablemainhandequippabletwohandequippableoffhandequippabletool":"Tools \u0026 Weapons","equippablemainhandequippabletwohandshield":"MainHand, TwoHand \u0026 Shield","equippablemainhandfirestaffmagic":"Fire Staff","equippablemainhandhatchetmelee":"Hatchet","equippablemainhandlifestaffmagic":"Life Staff","equippablemainhandsword":"Sword","equippablemainhandswordmelee":"Sword","equippablemouth":"Mouth","equippableoffhand+decrementdurabilityonunsheathed":"Offhand","equippableoffhand+shield":"Shield","equippableoffhanddecrementdurabilityonunsheathed":"Offhand","equippableoffhandshield":"Shield","equippablering":"Ring","equippablering+jewelry":"Rings","equippableringjewelry":"Rings","equippabletoken":"Earring","equippabletoken+equippablering+equippableamulet+armor+bag+shield":"Armor, Bag, Shield \u0026 Jewelry","equippabletoken+equippablering+equippableamulet+armor+shield":"Armor, Shield \u0026 Jewelry","equippabletoken+jewelry":"Earrings","equippabletokenequippableringequippableamuletarmorbagshield":"Armor, Bag, Shield \u0026 Jewelry","equippabletokenequippableringequippableamuletarmorshield":"Armor, Shield \u0026 Jewelry","equippabletokenjewelry":"Earrings","equippabletool":"Tools","equippabletool+axe":"Gathering Tool","equippabletool+axe+loggingaxe":"LoggingAxe","equippabletool+axe+pickaxe":"PickAxe","equippabletool+axe+sickle":"Sickle","equippabletool+axe+skinningknife":"SkinningKnife","equippabletool+fishingpole":"FishingPole","equippabletool+magic":"Tools \u0026 Magic Weapons","equippabletoolaxe":"Gathering Tool","equippabletoolmagic":"Tools \u0026 Magic Weapons","equippabletwohand+2haxe+melee":"Great Axe","equippabletwohand+2hhammer+melee":"War Hammer","equippabletwohand+axe":"2H Axe","equippabletwohand+bow+ranged":"Bow","equippabletwohand+fishingpole":"Fishing Pole","equippabletwohand+musket+ranged":"Musket","equippabletwohand2haxemelee":"2H Axe","equippabletwohand2hhammermelee":"2H Hammer","equippabletwohandaxe":"2H Axe","equippabletwohandbowranged":"Bow","equippabletwohandfishingpole":"Fishing Pole","equippabletwohandmusketranged":"Musket","feet":"Feet","feet+armor":"Feet","feet+armor+heavy":"Feet (Heavy)","feet+armor+light":"Feet (Light)","feet+armor+medium":"Feet (Medium)","firestaff+armor":"FireStaff \u0026 Armor","firestaffarmor":"FireStaff \u0026 Armor","fishingpole":"Fishing Pole","foodancient":"FoodAncient","foodangryearth":"FoodAngryEarth","foodarcanist":"FoodArcanist","foodarmorer":"FoodArmorer","foodbeast":"FoodBeast","foodcorrupted":"FoodCorrupted","fooddefense":"FoodDefense","foodengineer":"FoodEngineer","foodharvester":"FoodHarvester","foodhealthrecovery":"FoodHealthRecovery","foodhunter":"FoodHunter","foodjewelcrafter":"FoodJewelcrafter","foodlost":"FoodLost","foodlumberjack":"FoodLumberjack","foodmana":"FoodMana","foodminer":"FoodMiner","foodweaponsmith":"FoodWeaponsmith","hands":"Hands","hands+armor":"Hands","hands+armor+heavy":"Hands (Heavy)","hands+armor+light":"Hands (Light)","hands+armor+medium":"Hands (Medium)","hatchet+armor":"Hatchet \u0026 Armor","hatchetarmor":"Hatchet \u0026 Armor","head":"Head","head+armor":"Head","head+armor+heavy":"Head (Heavy)","head+armor+light":"Head (Light)","head+armor+medium":"Head (Medium)","icemagic+armor":"IceGauntlet \u0026 Armor","icemagicarmor":"IceGauntlet \u0026 Armor","legs":"Legs","legs+armor":"Legs","legs+armor+heavy":"Legs (Heavy)","legs+armor+light":"Legs (Light)","legs+armor+medium":"Legs (Medium)","lifestaff":"LifeStaff","lifestaff+armor":"LifeStaff \u0026 Armor","lifestaffarmor":"LifeStaff \u0026 Armor","loggingaxe":"Logging Axe","magic":"Magic","mainhand":"MainHand","mainhand+firestaff+magic":"Fire Staff","mainhand+hatchet+melee":"Hatchet","mainhand+lifestaff+magic":"Life Staff","mainhand+sword":"Sword","mainhand+sword+melee":"Sword","mainhand+twohand":"MainHand \u0026 TwoHand","mainhand+twohand+offhand":"Weapons","mainhand+twohand+offhand+tool":"Tools \u0026 Weapons","melee":"Melee","melee+ranged+magic":"Weapons","melee+ranged+magic+armor":"Weapons \u0026 Armor","melee+shield":"Melee \u0026 Shield","meleerangedmagic":"Weapons","meleerangedmagicarmor":"Weapons \u0026 Armor","meleeshield":"Melee \u0026 Shield","mouth":"Mouth","musket+armor":"Musket \u0026 Armor","musketarmor":"Musket \u0026 Armor","offhand+decrementdurabilityonunsheathed":"Offhand","offhand+shield":"Shield","outpostrushonly":"Outpost Rush","pickaxe":"Pickaxe","potionelemdefense":"PotionElemDefense","potionencumbrance":"PotionEncumbrance","potionendurance":"PotionEndurance","potionfocus":"PotionFocus","potionhealth":"PotionHealth","potionmana":"PotionMana","potionpurify":"PotionPurify","potionwarming":"PotionWarming","potionwellness":"PotionWellness","ranged":"Ranged","rapier+armor":"Rapier \u0026 Armor","rapierarmor":"Rapier \u0026 Armor","rawresources":"Raw","refinedresources":"Refined","resource":"Resource","resource+alchemy":"AlchemyResource","resource+bait+food":"Bait","resource+block":"Block","resource+cloth":"Cloth","resource+dungeonitem":"DungeonItem","resource+fiber":"Fiber","resource+food":"Food","resource+gem":"Gem","resource+ingot":"Ingot","resource+leather":"Leather","resource+lootcontainer":"LootContainer","resource+ore":"Ore","resource+ore+outpostrushonly":"OutpostRushOnly","resource+outpostrushonly":"OutpostRushOnly","resource+perkresource":"PerkResource","resource+rawfood":"RawFood","resource+rawfood+fish":"Fish","resource+rawhide":"Rawhide","resource+rawhide+outpostrushonly":"OutpostRushOnly","resource+repairkit":"RepairKit","resource+siegewaronly":"War","resource+stone":"Stone","resource+timber":"Timber","resource+wood":"Wood","resource+wood+outpostrushonly":"OutpostRushOnly","resourcelootcontainer":"Loot Container","resourceperkresource":"Perk Resource","resourcesiegewaronly":"War","ring":"Ring","ring+jewelry":"Rings","shield":"Shield","shield+armor":"Shield \u0026 Armor","shieldarmor":"Shield \u0026 Armor","sickle":"Sickle","siegewaronly":"War","skinningknife":"Skinning Knife","spear+armor":"Spear \u0026 Armor","speararmor":"Spear \u0026 Armor","specialresources":"Perk","sword+armor":"Sword \u0026 Armor","swordarmor":"Sword \u0026 Armor","token":"Earring","token+jewelry":"Earrings","tool":"Tools","tool+axe":"Gathering Tool","tool+magic":"Tools \u0026 Magic Weapons","twohand+2haxe+melee":"2H Axe","twohand+2hhammer+melee":"2H Hammer","twohand+axe":"2H Axe","twohand+bow+ranged":"Bow","twohand+fishingpole":"Fishing Pole","twohand+musket+ranged":"Musket","weapon+equippablemainhand":"MainHand","weapon+equippablemainhand+firestaff+magic":"FireStaff","weapon+equippablemainhand+hatchet+melee":"Hatchet","weapon+equippablemainhand+icemagic+magic":"IceGauntlet","weapon+equippablemainhand+lifestaff+magic":"LifeStaff","weapon+equippablemainhand+rapier+melee":"Rapier","weapon+equippablemainhand+sword+melee":"Sword","weapon+equippableoffhand+shield":"Shield","weapon+equippableoffhand+shield+kite":"Kite Shield","weapon+equippableoffhand+shield+round":"Round Shield","weapon+equippableoffhand+shield+tower":"Tower Shield","weapon+equippabletool+axe+azothstaff":"AzothStaff","weapon+equippabletool+axe+loggingaxe":"LoggingAxe","weapon+equippabletwohand+2haxe+melee":"Great Axe","weapon+equippabletwohand+2hhammer+melee":"War Hammer","weapon+equippabletwohand+axe":"Great Axe","weapon+equippabletwohand+bow+ranged":"Bow","weapon+equippabletwohand+musket+ranged":"Musket","weapon+equippabletwohand+spear+melee":"Spear"},"affix":{"SoldierSuffix":"of the Soldier","FighterSuffix":"of the Fighter","SpellswordSuffix":"of the Spellsword","BarbarianSuffix":"of the Barbarian","MonkSuffix":"of the Monk","CavalierSuffix":"of the Cavalier","RangerSuffix":"of the Ranger","AssassinSuffix":"of the Assassin","BrigandSuffix":"of the Brigand","DuelistSuffix":"of the Duelist","BattlemageSuffix":"of the Battlemage","TricksterSuffix":"of the Trickster","ScholarSuffix":"of the Scholar","OccultistSuffix":"of the Occultist","MageSuffix":"of the Mage","KnightSuffix":"of the Knight","WardenSuffix":"of the Warden","DruidSuffix":"of the Druid","SentrySuffix":"of the Sentry","NomadSuffix":"of the Nomad","ZealotSuffix":"of the Zealot","ArtificerSuffix":"of the Artificer","PriestSuffix":"of the Priest","ClericSuffix":"of the Cleric","SageSuffix":"of the Sage","AbyssalPrefix":"Abyssal","ElectrifiedPrefix":"Electrified","EmpoweredPrefix":"Empowered","IgnitedPrefix":"Ignited","FrozenPrefix":"Frozen","ArborealPrefix":"Arboreal","BrashPrefix":"Brash","OpportunistPrefix":"Opportunistic","RetaliatePrefix":"Vengeful","ExhilaratePrefix":"Exhilarating","CruelPrefix":"Cruel","GambitPrefix":"Scheming","RallyPrefix":"Rallying","AbyssalWardPrefix":"Abyssal","FireWardPrefix":"Fireproof","IceWardPrefix":"Iceproof","LightningWardPrefix":"Insulated","ArcaneWardPrefix":"Empowered","NatureWardPrefix":"Arboreal","SlashWardPrefix":"Burnished","StrikeWardPrefix":"Padded","ThrustWardPrefix":"Tempered","PhysicalWardPrefix":"Reinforced","WildernessWardPrefix":"Primeval","ElementalWardPrefix":"Imbued","SpectralWardPrefix":"Spectral"},"territories":{"firstlight":"First Light","edengrove":"Edengrove","everfall":"Everfall","brightwood":"Brightwood","greatcleave":"Great Cleave","windsward":"Windsward","restlessshore":"Restless Shore","mourningdale":"Mourningdale","reekwater":"Reekwater","shatteredmoutain":"Shattered Mountain","monarchsbluffs":"Monarch's Bluffs","cutlasskeys":"Cutlass Keys","weaversfen":"Weaver's Fen","queensport":"Ebonscale Reach","msq":"Main Story","general":"General"},"map":{"harvesting":"Harvesting","general":"General","named":"Named Mob","mining":"Mining","logging":"Logging","skinning":"Skinning","fishing":"Fishing","lore":"Lore","chests":"Chests","quests":"Quests","fiber":"Hemp","harvestingplantt4":"Silkweave","harvestingplantt5":"Wireweave","oil":"Oil","alchemy1":"Magical Plants","alchemy2":"Magical Stones","air_plant":"Shockbulb","air_stone":"Shockspire","air_boid":"Lightning Beetle","death_plant":"Blightroot","death_stone":"Blightcrag","death_boid":"Blighted Moth","earth_plant":"Earthspine","earth_stone":"Earthcrag","earth_boid":"Earthshell Turtle","fire_plant":"Dragonglory","fire_stone":"Scorchstone","fire_boid":"Salamander Snail","life_plant":"Lifebloom","life_stone":"Lifejewel","life_boid":"Lifemoth","soul_plant":"Soulsprout","soul_stone":"Soulspire","soul_boid":"Soul Wyrm","water_plant":"Rivercress","water_stone":"Springstone","water_boid":"Spinefish","herb":"Herb","default":"Other","saltpeter":"Saltpeter","silver":"Silver","gold":"Gold","honey":"Honey","platinum":"Platinum","fruit":"Fruit","broccoli":"Broccoli","squash":"Squash","barley":"Barley","potato":"Potato","corn":"Corn","carrot":"Carrot","cabbage":"Cabbage","pigment":"Pigment","chest":"Chest","goat":"Goat","sheep":"Sheep","alligator":"Alligator","cow":"Cow","quest_item":"Quest Item","orichalcum":"Orichalcum","ironwood":"Ironwood","wyrdwood":"Wyrdwood","lodestone":"Lodestone","iron":"Iron","starmetal":"Starmetal","turkey":"Turkey","rabbit":"Rabbit","pig":"Pig","elk":"Elk","bear":"Bear","wolf":"Wolf","boar":"Boar","bison":"Bison","lion":"Lion","bobcat":"Bobcat","lynx":"Lynx","go_to_large_map":"Go to large Map","amrine_excavation":"Amrine Excavation","starstone_barrows":"Starstone Barrows","garden_of_genesis":"Garden of Genesis","lazarus_instrumentality":"Lazarus Instrumentality","dynasty_shipyard":"Dynasty Shipyard","the_depths":"The Depths"},"item":{"legendary":"Legendary","loot_table_disclaimer":"Experimental! Please leave a comment if you believe this data to be wrong.","loot_table_note":"Drops depend on level and location. Experimental! Please leave a comment if you believe this data to be wrong.","type_label":"Type","class_label":"Class","gear_score_label":"Gear Score","base_damage_label":"Base Damage","physical_armor_rating_label":"Physical Armor Rating","elemental_armor_rating_label":"Elemental Armor Rating","crit_chance_label":"Crit Chance","perks_heading":"Perks","level_requirement_label":"Level Requirement","bind_on_pickup_label":"Bind on Pickup","derived_from_label":"Derived from","reward_for_label":"Reward for","dropped_by_tab":"Dropped by","found_in_tab":"Gathered from","contains_tab":"Contains","crafted_by_tab":"Crafted by","used_by_tab":"Used by","details_tab":"Details","tier_label":"Tier","category_label":"Category","rank_points_label":"Rank Points","max_allowed_for_rank_points_label":"Max Allowed For Rank Points","negative_limit_for_rank_points_label":"Negative Limit For Rank Points","storage_bonus_label":"Storage Bonus","weight_label":"Weight","crafted_by_label":"Crafted by","ingredients_label":"Ingredients"},"recipes":{"alchemy":"Alchemy","arcana":"Arcana","armoring":"Armoring","blacksmith":"Blacksmith","carpentry":"Carpentry","cooking":"Cooking","engineering":"Engineering","furnishing":"Furnishing","jewelcrafting":"Jewelcrafting","leatherworking":"Leatherworking","masonry":"Masonry","outfitting":"Outfitting","smelting":"Smelting","stonecutting":"Stonecutting","tanning":"Tanning","weaponsmithing":"Weaponsmithing","weaving":"Weaving","woodworking":"Woodworking","requires_tradeskill_level":"Requires %{tradeskill} Level %{level}","recipes_heading":"Recipes","recipe_heading":"Recipe","result_heading":"Result","ingredients_heading":"Ingredients","tradeskill_label":"Tradeskill","requires_station_label":"Requires Station","tradeskill_xp_label":"Tradeskill XP","territory_standing_label":"Territory Standing"},"gatherables":{"loot_table_note":"Drops depend on skill level, luck bonus and location. Experimental! Please leave a comment if you believe this data to be wrong.","requires_label":"Requires","base_gather_time_label":"Base Gather Time","respawn_time_label":"Respawn Time","experience":"Experience","xp_label":"XP","contains_heading":"Contains"},"categorical_progression_ids":{"swordabilitytable":"SwordAbilityTable","battle_token":"Battle_Token","furnishing":"Furnishing","weaponsmithing":"Weaponsmithing","armoring":"Armoring","jewelcrafting":"Jewelcrafting","arcana":"Arcana","cooking":"Cooking","engineering":"Engineering","smelting":"Smelting","woodworking":"Woodworking","leatherworking":"Leatherworking","weaving":"Weaving","stonecutting":"Stonecutting","skinning":"Skinning","mining":"Mining","logging":"Logging","harvesting":"Harvesting","fishing":"Fishing","camping":"Camping"},"lootcontainers":{"loot_table_note":"Drops depend on level and location. Experimental! Please leave a comment if you believe this data to be wrong.","variant_label":"Variant","contains_heading":"Contains"},"lore_items":{"type_label":"Type","belongs_to_label":"Belongs to","chapters_heading":"Chapters","pages_heading":"Pages"},"npcs":{"area_label":"Area","can_also_be_found_as_heading":"Can also be found as","quests_heading":"Quests","dialog_heading":"Dialog","location_heading":"Location"},"language":{"en":"English","de":"German","fr":"French","es":"Spanish","it":"Italian","pl":"Polish","pt":"Portuguese","english":"English","german":"Deutsch","french":"Français","spanish":"Español","italian":"Italiano","polish":"Polski","portuguese":"Português (BR)"}}
+    </script>
+<script src="/packs/js/application-b4290031fca5b2c2b148.js"></script>
+<script src="/packs/js/search-b7814980d27d2e382d19.js"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6992eecfc86732e4',m:'Moc2pU._B.GatkrH6khkh2J.eUCONb5W2dTSqzHA0r0-1633397931-0-Afk4ProPFhId1Mwzj4/97Cx3WccWwbsrMpoqblJW099jA4Th70y0VGjAdDchwniB9Dfk27uflCBFmCk3ZMZzkHA0snStlUguLQFFNcyXVmULKwQrrb0IgWNatc8LTEp2FQTHDGzp/dNzOEhhFdwa+XE=',s:[0x28ad050cb8,0x414dd85156],}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6992eecfc86732e4","token":"b835e4080ab548f2ada3cb3d0a759d70","version":"2021.9.0","si":100}'></script>
+</body>
+</html>
