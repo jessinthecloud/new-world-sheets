@@ -19,5 +19,4 @@
 - https://newworldfans.com
   - https://newworldfans.com/en/db/
 
-- https://docs.google.com/spreadsheets/d/1pC6YME99zRdN14lcJ-xGm9jZf939IJgOFS6EkpoR9Rg/edit#gid=105680022
-
+- https://docs.google.com/spreadsheets/d/1RgZuSTkXne7IBkcInheh01XJFpzDLkbcfsXMVvh32Gg/edit#gid=105680022
