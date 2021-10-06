@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/get-data', [App\Http\Controllers\HttpController::class, 'getAll']);
+Route::get('/get-data/{category}', [App\Http\Controllers\HttpController::class, 'getCategory']);
+Route::get('/get-data/{category}/{type}', [App\Http\Controllers\HttpController::class, 'getCategoryType']);
+
 Route::get('/scrape', function () {
 
     $base_url = "https://nwdb.info/db/";
@@ -86,7 +90,7 @@ Route::get('/scrape/category/{category}/{type?}', function (string $category, st
     dump('URL: ' . $url);
 //        continue;
 
-    $response = Http::accept( 'application/json' )->get( "https://newworldfans.com/db/category/Recipes" );
+    $response = Http::accept( 'application/json' )->get( $url.'?page=2' );
 
     dump( $response, $response->body() );
     
