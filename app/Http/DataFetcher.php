@@ -22,11 +22,18 @@ class DataFetcher implements Fetcher
 
     protected function buildFilename(string $url_piece, ?int $page=null) : string
     {
-        $path_piece = Str::beforeLast(Str::lower(Str::replace('/', '-', $url_piece)), '-');
-        $path = 'json/'.$path_piece.'/';
+        $path_piece = Str::lower(Str::replace('/', '-', $url_piece));
+        // if there was no /, don't split by hyphen
+        $path_piece = (substr_count($url_piece, '/') > 0) ? Str::beforeLast($path_piece, '-') : $path_piece;
         
-        $filename = Str::afterLast($path_piece, '-');
+        // if there was no /, don't split by hyphen
+        $filename = (substr_count($url_piece, '/') > 0) ? Str::afterLast($path_piece, '-') : $path_piece;
         $filename .= isset($page) ? '-'.$page : '';
+        
+        $path = 'json/'.$path_piece.'/';
+    
+    dump($url_piece, $path, $filename);
+    
         return $path.$filename;
     }
 
