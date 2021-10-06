@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Http\Controllers\NwfController;
+use App\Http\Fetcher;
+use App\Http\NwfFetcher;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->when(NwfController::class)
+            ->needs(Fetcher::class)
+            ->give(function () {
+                return new NwfFetcher();
+            });
     }
 
     /**
