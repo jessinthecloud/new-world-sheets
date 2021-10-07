@@ -16,10 +16,10 @@
 - [Wiki](https://newworld.fandom.com/wiki/)
   - [Crafting Info](https://newworld.fandom.com/wiki/Crafting)
 > The basis for this increase in yield is calculated by 4 factors:
-  - The base chance for that tier to create extra items.
-  - The skill level divided by a factor of 10.
-  - The refining material used.
-  - The difference in tier between the refining material used and the final product.
+>  - The base chance for that tier to create extra items.
+>  - The skill level divided by a factor of 10.
+>  - The refining material used.
+>  - The difference in tier between the refining material used and the final product.
 > Mathematically this looks like this:  
 >
 > `(RefiningSkill/10)+(BonusItemChance*100)+(TierDifferenceAmount*100)`  
