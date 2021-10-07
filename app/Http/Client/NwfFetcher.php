@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http;
+namespace App\Http\Client;
 
 class NwfFetcher extends DataFetcher
 {
-    protected $categories = [
+    protected array $categories = [
         // $category => [
         //    $type => total $page #
         // ]
