@@ -2,15 +2,13 @@
 
 
 - https://nwdb.info
-  - https://nwdb.info/tooltips
-  - https://nwdb.info/db/items/page/1  
-  - https://nwdb.info/db/item/2hfishingpole_ancient
-  - https://nwdb.info/experience-table  
-  - https://nwdb.info/build  
-  - https://nwdb.info/db/shops/page/1
-  - https://mapgenie.io/new-world/maps/aeternum 
+  - [Tooltip](https://nwdb.info/tooltips)
+  - [Item Listing](https://nwdb.info/db/items/page/1)
+  - [Item Details](https://nwdb.info/db/item/2hfishingpole_ancient)
+  - [XP Table](https://nwdb.info/experience-table)
+  - [Build Calculator](https://nwdb.info/build)
+  - [Map](https://mapgenie.io/new-world/maps/aeternum)
 
 - https://newworldfans.com
-  - https://newworldfans.com/en/db/
 
-- https://docs.google.com/spreadsheets/d/1RgZuSTkXne7IBkcInheh01XJFpzDLkbcfsXMVvh32Gg/edit#gid=105680022
+- [New World Refining & Crafting Calculators (andyfr#5012)](https://docs.google.com/spreadsheets/d/1RgZuSTkXne7IBkcInheh01XJFpzDLkbcfsXMVvh32Gg/)
