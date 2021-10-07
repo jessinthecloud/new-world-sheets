@@ -12,3 +12,6 @@
 - https://newworldfans.com
 
 - [New World Refining & Crafting Calculators (andyfr#5012)](https://docs.google.com/spreadsheets/d/1RgZuSTkXne7IBkcInheh01XJFpzDLkbcfsXMVvh32Gg/)
+
+- [Wiki](https://newworld.fandom.com/wiki/)
+  - [Crafting Info](https://newworld.fandom.com/wiki/Crafting)
