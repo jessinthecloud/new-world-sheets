@@ -2,7 +2,7 @@
 
 namespace App\Calculators;
 
-use App\Models\Items\Items\Concerns\Craftable;
+use App\Models\Items\Concerns\Craftable;
 
 abstract class CraftingCalculator implements Concerns\CraftingCalculator
 {
