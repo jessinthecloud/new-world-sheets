@@ -15,15 +15,17 @@ class CalculatorSheetsImport implements WithMultipleSheets
     public function conditionalSheets(): array
     {
         return [
-            'Leatherworking Calculator' => new LeatherworkingImport(),
-            'Smelting Calculator' => new SmeltingImport(),
-            'Stonecutting Calculator' => new StonecuttingImport(),
-            'Weaving Calculator' => new WeavingImport(),
-            'Woodworking Calculator' => new WoodworkingImport(),
-            'Arcana Calculator' => new ArcanaImport(),
-            'Bonus Item Validation' => new BonusItemValidationImport(),
-            'Bonus Item Chance Data' => new BonusItemChanceImport(),
             'EXP Data' => new ExperienceDataImport(),
+            
+            'Bonus Item Chance Data' => new BonusItemChanceImport(new ItemInfoImport()),
+            'Bonus Item Validation' => new BonusItemValidationImport(),
+            
+            'Leatherworking Calculator' => new ItemInfoImport(),
+            'Smelting Calculator' => new ItemInfoImport(),
+            'Stonecutting Calculator' => new ItemInfoImport(),
+            'Weaving Calculator' => new ItemInfoImport(),
+            'Woodworking Calculator' => new ItemInfoImport(),
+            'Arcana Calculator' => new ArcanaImport(),
         ];
     }
 }

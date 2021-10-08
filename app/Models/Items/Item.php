@@ -12,4 +12,5 @@ abstract class Item extends Model
 {
     use HasItemDetails;
 
+    protected $guarded = ['id'];
 }
