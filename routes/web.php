@@ -19,6 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/import', [App\Http\Controllers\ImportController::class, 'index'])->name('import.index');
+
 Route::get('/get-nwf-data', [App\Http\Controllers\NwfController::class, 'getAll']);
 Route::get('/get-nwf-data/{category}', [App\Http\Controllers\NwfController::class, 'category']);
 Route::get('/get-nwf-data/{category}/{type}', [App\Http\Controllers\NwfController::class, 'categoryType']);
