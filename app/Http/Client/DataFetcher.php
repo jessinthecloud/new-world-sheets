@@ -39,12 +39,17 @@ dump($url_piece, $path, $filename);
 
     public function makeRequest(string $url, string $filepath, string $content_type='application/json')
     {
-dump( $url, $content_type);    
+
+        if(Str::contains($url, 'cdn')){
+            $filepath = 'images/'.$filepath;
+        }
+        else{
+            $filepath .= '.'.Str::afterLast($content_type, '/');
+        }
+//dump( $url, $content_type);
+
         $response = Http::accept( $content_type )->get( $url );
-
-        $filepath .= '.'.Str::afterLast($content_type, '/');
-
-dump($filepath, $response, $response->body() );
+//dump($filepath, /*$response, $response->body()*/ );
 
         if ( $response->successful() ) {
             Storage::disk( 'local' )->put(

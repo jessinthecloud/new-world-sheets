@@ -32,5 +32,15 @@ class NwfController
     {
         $this->fetcher->getCategoryType($category, $type, $this->start_page);
     }
+
+    public function item(string $slug)
+    {
+        $this->fetcher->getItemDetails($slug);
+    }
+
+    public function recipe(string $slug)
+    {
+        $this->fetcher->getRecipeDetails($slug);
+    }
     
 }

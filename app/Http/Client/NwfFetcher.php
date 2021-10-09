@@ -133,4 +133,14 @@ class NwfFetcher extends DataFetcher
             $i++;
         }
     }
+    
+    public function getItemDetails(string $slug)
+    {
+        $this->fetch('item/'.$slug, null, 1);
+    }
+
+    public function getRecipeDetails(string $slug)
+    {
+        $this->fetch('recipe/'.$slug, null, 1);
+    }
 }
