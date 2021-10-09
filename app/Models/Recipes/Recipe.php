@@ -3,10 +3,14 @@
 namespace App\Models\Recipes;
 
 use App\Models\Items\Item;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 
-abstract class Recipe
+abstract class Recipe extends Model
 {
+    protected $guarded = [];
+    protected $table = 'recipes';
+
     /** array of Ingredient models */
     protected Collection $ingredients;
     // skill and level needed to craft this recipe

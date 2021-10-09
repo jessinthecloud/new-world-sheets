@@ -30,7 +30,8 @@ Route::get('/get-nwf-data/item/{slug}', [App\Http\Controllers\NwfController::cla
 Route::get('/get-nwf-data/recipe/{slug}', [App\Http\Controllers\NwfController::class, 'recipe']);
 
 // decode from json
-Route::get('/convert/items', [App\Http\Controllers\ConvertController::class, 'items']);
+Route::get('/convert/items', [App\Http\Controllers\ConvertItemsController::class, 'items']);
+Route::get('/convert/recipes', [App\Http\Controllers\ConvertRecipesController::class, 'recipes']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

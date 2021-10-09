@@ -3,13 +3,14 @@
 namespace App\Converters;
 
 use App\Converters\Concerns\Converter;
+use Illuminate\Filesystem\Filesystem;
 
-class JsonConverter implements Converter
+class JsonConverter extends DataConverter
 {
-    public function convert($data)
+    public function convert( $data=null )
     {
         return json_decode(
-            $this->removeInvalidHex(file_get_contents($data)),
+            $this->removeInvalidHex($data),
             true
        );
     }
@@ -25,4 +26,6 @@ class JsonConverter implements Converter
     {
         return preg_replace('/[\x00-\x1F\x7F]/u', '', $string);
     }
+
+    
 }

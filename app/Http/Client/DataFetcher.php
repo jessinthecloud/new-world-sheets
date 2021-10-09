@@ -61,7 +61,7 @@ dump($url_piece, $path, $filename);
         }
     }
 
-    public function fetch(string $url_piece, ?int $page=null, ?int $sleep=null, ?string $content_type='application/json')
+    public function fetch(string $url_piece, ?int $page=null, int $sleep=1, ?string $content_type='application/json')
     {
         $this->makeRequest(
             $this->buildUrl($url_piece, $page),
