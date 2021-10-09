@@ -32,18 +32,19 @@ class DataFetcher implements Fetcher
         
         $path = 'json/'.$path_piece.'/';
     
-    dump($url_piece, $path, $filename);
+dump($url_piece, $path, $filename);
     
         return $path.$filename;
     }
 
-    protected function makeRequest(string $url, string $filepath, string $content_type='application/json')
+    public function makeRequest(string $url, string $filepath, string $content_type='application/json')
     {
+dump( $url, $content_type);    
         $response = Http::accept( $content_type )->get( $url );
 
         $filepath .= '.'.Str::afterLast($content_type, '/');
 
-dump( $url, $filepath, $response, $response->body() );
+dump($filepath, $response, $response->body() );
 
         if ( $response->successful() ) {
             Storage::disk( 'local' )->put(
@@ -55,11 +56,12 @@ dump( $url, $filepath, $response, $response->body() );
         }
     }
 
-    public function fetch(string $url_piece, ?int $page=null, ?int $sleep=null)
+    public function fetch(string $url_piece, ?int $page=null, ?int $sleep=null, ?string $content_type='application/json')
     {
         $this->makeRequest(
             $this->buildUrl($url_piece, $page),
-            $this->buildFilename($url_piece, $page)
+            $this->buildFilename($url_piece, $page),
+            $content_type
         );
         
         if(isset($sleep)){
