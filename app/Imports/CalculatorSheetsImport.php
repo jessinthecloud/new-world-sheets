@@ -18,7 +18,7 @@ class CalculatorSheetsImport implements WithMultipleSheets
             'EXP Data' => new ExperienceDataImport(),
             
             'Bonus Item Chance Data' => new BonusItemChanceImport(new ItemInfoImport()),
-            'Bonus Item Validation' => new BonusItemValidationImport(),
+            'Bonus Item Validation' => new BonusItemValidationImport(new ItemInfoImport()),
             
             'Leatherworking Calculator' => new ItemInfoImport(),
             'Smelting Calculator' => new ItemInfoImport(),

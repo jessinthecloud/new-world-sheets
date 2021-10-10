@@ -22,6 +22,8 @@ class BonusItemChanceImport  implements ToCollection, WithMappedCells, WithEvent
     */
     public function collection(Collection $collection)
     {
+        // TODO: process bonus chance info 
+        
         $this->itemImport->collection($collection);
     }
 
@@ -32,6 +34,19 @@ class BonusItemChanceImport  implements ToCollection, WithMappedCells, WithEvent
 
     public function mapping() : array
     {
+        // bonus item chance sheet item info
+        $ranges = [
+            'A' =>[
+                [3,7],
+                [10,19],
+                [22,26],
+                [29,33],
+                [36,40],
+                [43,121],
+                [124,135],
+            ]
+        ];
+        $this->itemImport->mapRangesToCells($ranges);
         return $this->itemImport->mapping();
     }
 }

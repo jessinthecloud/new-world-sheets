@@ -6,54 +6,74 @@ use App\Models\Items\Resource;
 use App\Models\Meta\ExperienceData;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use Maatwebsite\Excel\Concerns\OnEachRow;
 use Maatwebsite\Excel\Concerns\SkipsEmptyRows;
 use Maatwebsite\Excel\Concerns\ToCollection;
 use Maatwebsite\Excel\Concerns\WithEvents;
 use Maatwebsite\Excel\Concerns\WithMappedCells;
 use Maatwebsite\Excel\Events\AfterSheet;
+use Maatwebsite\Excel\Row;
 
-class ItemInfoImport implements ToCollection, WithMappedCells, WithEvents, SkipsEmptyRows
+class ItemInfoImport implements ToCollection, OnEachRow, WithMappedCells, WithEvents, SkipsEmptyRows
 {
+    protected ?array $cells;
+    protected ?array $rows;
+    protected array $row = [];
+
     /**
     * @param Collection $cells
     */
     public function collection(Collection $cells)
     {
-//        ddd($cells);
+        ddd('collection method', $cells);
         
         foreach($cells as $cell){
             if( !isset($cell) ){
                 continue;
             }
             // crafted item & material type
-            Resource::updateOrCreate([
-               'name' => Str::before($cell, '['),
-               'tier' => Str::between($cell, '[', ']'),
-           ]);
+            $resource = Resource::updateOrCreate(
+                [
+                   'name' => Str::before($cell, '['),
+                   'tier' => Str::between($cell, '[', ']'),
+                ],
+                [
+                    'name' => Str::before($cell, '['),
+                    'tier' => Str::between($cell, '[', ']'),
+                ]
+            );
         }
+    }
+
+    public function mapRangesToCells( array $ranges )
+    {
+        // create cell coords to import
+        foreach($ranges as $col => $column_range){
+            foreach($column_range as $cells){
+                for($i=$cells[0]; $i<=$cells[1]; $i++){
+                    $this->cells []= $col.$i;
+                }
+            }
+        }
+    }
+
+    public function mapRangesToRows( array $ranges, array $map )
+    {
+dump($map,$ranges);
+        // create cell coords to import
+        foreach($ranges as $col => $column_range){
+            foreach($column_range as $cells){
+                for($i=$cells[0]; $i<=$cells[1]; $i++){
+                    $this->rows [$map[$col]][]= $col.$i;
+                }
+            } // end cell
+        } // end cols
+dump($this->rows);
     }
 
     public function mapping() : array
     {
-        $col = 'A';
-        $ranges = [
-            [3,7],
-            [10,19],
-            [22,26],
-            [29,33],
-            [36,40],
-            [43,121],
-            [124,135],
-        ];
-        $cells = [];
-        // create cell coords to import
-        foreach($ranges as $range){
-            for($i=$range[0]; $i<=$range[1]; $i++){
-                $cells []= $col.$i;
-            }
-        }
-//        dump($cells);
-        return $cells;
+        return $this->cells ?? $this->rows['items'];
     }
 
     public function registerEvents() : array
@@ -71,5 +91,29 @@ class ItemInfoImport implements ToCollection, WithMappedCells, WithEvents, Skips
     {
         // read the hidden cell data?
         // ddd($event->sheet->getDelegate()->toArray(null, false));
+    }
+
+    public function processRow($row, $data)
+    {
+        if($row->getIndex() === $data['leatherworking']['items']['heading_row']+1){
+            $row = $row->toArray();
+//            ddd($row->toArray(), $data);
+//ddd($row, $data['leatherworking']['items']['item'], $data['leatherworking']['items']['weight']);
+            $this->row = [
+                'item' => $row[$data['leatherworking']['items']['item']],
+                'tier' => $row[$data['leatherworking']['items']['item']],
+                'weight' => $row[$data['leatherworking']['items']['weight']]
+            ];
+        }
+    }
+
+    public function onRow( Row $row )
+    {
+        $rowIndex = $row->getIndex();
+        $row      = $row->toArray();
+if(!empty($this->row)){
+    dump($this->row, $row);
+}
+        return $this->row;
     }
 }

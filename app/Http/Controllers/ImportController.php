@@ -12,9 +12,9 @@ class ImportController extends Controller
         $import = new CalculatorSheetsImport();
 
         $import->onlySheets(
-            'EXP Data',
-            'Bonus Item Chance Data',
-//            'Bonus Item Validation',
+//            'EXP Data',
+//            'Bonus Item Chance Data',
+            'Bonus Item Validation',
 //            'Leatherworking Calculator',
 //            'Smelting Calculator',
 //            'Stonecutting Calculator',
