@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Result of a recipe or world drop
  */
-abstract class Item extends Model
+class Item extends Model
 {
-    use HasItemDetails;
+//    use HasItemDetails;
 
     protected $guarded = [];
     protected $table = 'items';
