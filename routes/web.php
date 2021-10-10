@@ -33,6 +33,10 @@ Route::get('/get-nwf-data/recipe/{slug}', [App\Http\Controllers\NwfController::c
 Route::get('/convert/items', [App\Http\Controllers\ConvertItemsController::class, 'items']);
 Route::get('/convert/recipes', [App\Http\Controllers\ConvertRecipesController::class, 'recipes']);
 
+Route::get('/calculate/leatherworking', [App\Http\Controllers\CalculateLeatherworkingController::class, 'form'])->name('leather-calc-form');
+
+Route::post('/calculate/leatherworking', [App\Http\Controllers\CalculateLeatherworkingController::class, 'calculate'])->name('leather-calc-process');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

@@ -2,7 +2,8 @@
 
 namespace App\Enums;
 
-enum Tier : string {
+enum Tier : string 
+{
     case T1 = "Tier 1";
     case T2 = "Tier 2";
     case T3 = "Tier 3";

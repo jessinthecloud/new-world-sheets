@@ -4,5 +4,5 @@ namespace App\Calculators\Concerns;
 
 interface Calculator
 {
-    public function calculate();
+    public function calculate($data);
 }
