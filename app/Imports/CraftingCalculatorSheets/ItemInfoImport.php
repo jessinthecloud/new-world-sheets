@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Imports;
+namespace App\Imports\CraftingCalculatorSheets;
 
 use App\Models\Items\Resource;
 use App\Models\Meta\ExperienceData;

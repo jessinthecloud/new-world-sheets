@@ -2,14 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Imports\CalculatorSheetsImport;
+use App\Imports\CraftingCalculatorSheets;
+use App\Imports\DatabaseSheetImport;
 use Maatwebsite\Excel\Facades\Excel;
 
 class ImportController extends Controller
 {
     public function index()
     {
-        $import = new CalculatorSheetsImport();
+        /*$import = new CalculatorSheetsImport();
 
         $import->onlySheets(
             'EXP Data',
@@ -23,6 +24,18 @@ class ImportController extends Controller
 //            'Arcana Calculator'
         );
         
+        Excel::import($import, 'calculators.xlsx');*/
+
+        $import = new DatabaseSheetImport();
+
+        $import->onlySheets(
+            'Item Data',
+//            'Perks Data',
+//            'EXP Data',
+//            'Calculator',
+//            'Perks',
+        );
+
         Excel::import($import, 'calculators.xlsx');
 dump('done');
 //        return redirect('/')->with('success', 'All good!');

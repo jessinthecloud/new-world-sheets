@@ -2,7 +2,10 @@
 
 namespace App\Models\Items;
 
-class Resource extends Item
+use Illuminate\Database\Eloquent\Model;
+
+class Resource extends Model
 {
+    protected $guarded = [];
     protected $table = 'resources'; 
 }

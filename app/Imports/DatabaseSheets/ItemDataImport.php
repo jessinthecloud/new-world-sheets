@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Imports;
+namespace App\Imports\DatabaseSheets;
 
 use Illuminate\Support\Collection;
 use Maatwebsite\Excel\Concerns\ToCollection;
 
-class ArcanaImport implements ToCollection
+class ItemDataImport implements ToCollection
 {
     /**
     * @param Collection $collection
