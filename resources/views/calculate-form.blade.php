@@ -1,7 +1,8 @@
 <x-guest-layout>
     <section class="min-h-screen flex flex-col sm:justify-center items-left pt-6 sm:pt-0 bg-gray-100">
-        <div class="mx-auto">
+        <div class="max-w-6xl mx-auto">
             <h2 class="font-bold text-2xl mb-8">{{ $title }}</h2>
+
             <x-calc-form
                 :action="$action"
                 
@@ -23,6 +24,7 @@
                 
                 :skillLevelLabel="$skillLevelLabel"
                 :skillLevelName="$skillLevelName"
+                :skillLevelValue="$skillLevelValue"
             ></x-calc-form>
         </div>
     </section>

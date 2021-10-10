@@ -19,5 +19,5 @@ abstract class CalculateController extends Controller
 
     abstract public function form(Request $request);
     
-    abstract public function calculate(Request $request);
+//    abstract public function calculate(Request $request);
 }

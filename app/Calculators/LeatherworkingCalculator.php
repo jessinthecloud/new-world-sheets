@@ -7,5 +7,5 @@ use App\Calculators\CraftingCalculator;
 
 class LeatherworkingCalculator extends CraftingCalculator
 {
-    
+    // (RefiningSkill/10)+(BonusItemChance*100)+(TierDifferenceAmount*100)
 }

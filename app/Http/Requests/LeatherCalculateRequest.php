@@ -24,12 +24,12 @@ class LeatherCalculateRequest extends FormRequest
     public function rules()
     {
         return [
-            'amount' => ['required', 'integer'],
+            'amount' => ['required', 'integer', 'min:1'],
             'item' => ['required', 'string'],
-            'material1' => ['string', 'nullable'],
+            'material1' => ['required', 'string', 'nullable'],
             'material2' => ['required', 'string'],
             // TODO: compare skill level to required skill level
-            'skill_level' => ['integer', 'min:0', 'max:200'],
+            'skill_level' => ['required', 'integer', 'min:0', 'max:200'],
         ];
     }
 

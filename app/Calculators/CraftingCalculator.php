@@ -22,7 +22,7 @@ abstract class CraftingCalculator implements Concerns\CraftingCalculator, BonusC
         $this->bonusChance();
     }
 
-    public function bonusChance(  )
+    public function bonusChance()
     {
         // TODO: Implement bonusChance() method.
     }
