@@ -15,17 +15,19 @@ class CalculatorSheetsImport implements WithMultipleSheets
     public function conditionalSheets(): array
     {
         return [
-            'EXP Data' => new ExperienceDataImport(),
+//            'EXP Data' => new ExperienceDataImport(),
             
-            'Bonus Item Chance Data' => new BonusItemChanceImport(new ItemInfoImport()),
+//            'Bonus Item Chance Data' => new BonusItemChanceImport(),
             'Bonus Item Validation' => new BonusItemValidationImport(),
             
+            /* 
             'Leatherworking Calculator' => new ItemInfoImport(),
             'Smelting Calculator' => new ItemInfoImport(),
             'Stonecutting Calculator' => new ItemInfoImport(),
             'Weaving Calculator' => new ItemInfoImport(),
             'Woodworking Calculator' => new ItemInfoImport(),
             'Arcana Calculator' => new ArcanaImport(),
+            */
         ];
     }
 }
