@@ -7,7 +7,7 @@
 - [New World Refining & Crafting Calculators (andyfr#5012)](https://docs.google.com/spreadsheets/d/1RgZuSTkXne7IBkcInheh01XJFpzDLkbcfsXMVvh32Gg/)
     - [New World Trade Skill Recipes (Mala Zedik)](https://docs.google.com/spreadsheets/d/139UvmN9GQusBQbomfw_MgqdDLxtpJGlcviC2AOMZcVQ/)
 - [New World Cooking Recipes (andyfr#5012)](https://docs.google.com/spreadsheets/d/1CyHEZ3E0K5vk1-_ZM18MIOL4OK2AlKSmX6ooh4wW0SA/edit#gid=430418997)
-- [New World EXP & Resource Database/Calculator (andyfr#5012)](- https://docs.google.com/spreadsheets/d/1Gm4ArVdwWleQS3xHtW0Ol70ZbP1eIwmzpvvPp00aKRk/edit#gid=313535502)
+- [New World EXP & Resource Database/Calculator (andyfr#5012)](https://docs.google.com/spreadsheets/d/1Gm4ArVdwWleQS3xHtW0Ol70ZbP1eIwmzpvvPp00aKRk/edit#gid=313535502)
 - [New World Territory Bonus Calculator (Mala Zedik)](https://docs.google.com/spreadsheets/d/1ctqQ3JmRv_PvVbGOh126LgdBmtgXQQRS3ymCLbCE1RE/)
 
 - [Wiki](https://newworld.fandom.com/wiki/)
