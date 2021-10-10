@@ -20,18 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get('/import', [App\Http\Controllers\ImportController::class, 'index'])->name('import.index');
-// listings
-Route::get('/get-nwf-data', [App\Http\Controllers\NwfController::class, 'getAll']);
-Route::get('/get-nwf-data/{category}', [App\Http\Controllers\NwfController::class, 'category']);
-Route::get('/get-nwf-data/{category}/{type}', [App\Http\Controllers\NwfController::class, 'categoryType']);
-
-// details 
-Route::get('/get-nwf-data/item/{slug}', [App\Http\Controllers\NwfController::class, 'item']);
-Route::get('/get-nwf-data/recipe/{slug}', [App\Http\Controllers\NwfController::class, 'recipe']);
-
-// decode from json
-Route::get('/convert/items', [App\Http\Controllers\ConvertItemsController::class, 'items']);
-Route::get('/convert/recipes', [App\Http\Controllers\ConvertRecipesController::class, 'recipes']);
 
 Route::get('/calculate/leatherworking', [App\Http\Controllers\CalculateLeatherworkingController::class, 'form'])->name('leather-calc-form');
 
