@@ -11,6 +11,7 @@ class CreateTradeskillsTable extends Migration
         Schema::create( 'tradeskills', function ( Blueprint $table ) {
             $table->bigIncrements( 'id' );
             $table->string('name')->unique();
+            $table->string('slug')->unique();
             $table->string('description')->nullable();
             $table->timestamps();
         } );

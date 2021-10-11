@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Items\Item;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;
@@ -16,6 +17,23 @@ use Illuminate\Support\Facades\Storage;
 */
 
 Route::get('/', function () {
+/*    $item = new Item([
+         'name' => 'TEST zdbzdbAGAIN',
+         'slug' => 'test-slug=againzdfbzdfb',
+     ]);
+    $item->name = 'name2';
+    $item->slug = 'slug2';
+    $item->save();
+//ddd($item);
+dump($item);*/
+/*    $item2 = Item::create([
+          'name' => 'sdfbsdbf',
+          'slug' => 'test-slug-againzdf',
+      ], [
+        'name' => 'zdbzdbf',
+        'slug' => 'test-slug-againzdf',
+    ]);
+ddd($item2);*/
     return view('welcome');
 });
 
