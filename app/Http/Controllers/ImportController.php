@@ -10,7 +10,7 @@ class ImportController extends Controller
 {
     public function index()
     {
-        $import = new CalculatorSheetsImport();
+/*        $import = new CalculatorSheetsImport();
 
         $import->onlySheets(
             'EXP Data',
@@ -24,9 +24,9 @@ class ImportController extends Controller
 //            'Arcana Calculator'
         );
         
-        Excel::import($import, 'calculators.xlsx');
+        Excel::import($import, 'calculators.xlsx');*/
 
-        /*$import = new DatabaseSheetImport();
+        $import = new DatabaseSheetImport();
 
         $import->onlySheets(
             'Item Data',
@@ -36,7 +36,7 @@ class ImportController extends Controller
 //            'Perks',
         );
 
-        Excel::import($import, 'database.xlsx');*/
+        Excel::import($import, 'database.xlsx');
 dump('done');
 //        return redirect('/')->with('success', 'All good!');
     }

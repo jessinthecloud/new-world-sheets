@@ -25,6 +25,7 @@ class ExperienceDataImport implements ToModel, WithCalculatedFormulas, HasRefere
         // create related model first
         $tradeskill = Tradeskill::updateOrCreate([
             'name' => $row[0],
+            'slug' => \Illuminate\Support\Str::slug($row[0]),
         ]);
         
         $expData = new ExperienceData([

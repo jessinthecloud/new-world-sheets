@@ -8,6 +8,7 @@ use App\Models\Tradeskill;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use Maatwebsite\Excel\Concerns\HasReferencesToOtherSheets;
 use Maatwebsite\Excel\Concerns\OnEachRow;
 use Maatwebsite\Excel\Concerns\RemembersChunkOffset;
 use Maatwebsite\Excel\Concerns\RemembersRowNumber;
@@ -15,10 +16,12 @@ use Maatwebsite\Excel\Concerns\SkipsEmptyRows;
 use Maatwebsite\Excel\Concerns\ToCollection;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithBatchInserts;
+use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
+use Maatwebsite\Excel\Concerns\WithUpserts;
 use Maatwebsite\Excel\Row;
 
-class ItemDataImport implements ToModel, SkipsEmptyRows
+class ItemDataImport implements ToModel, WithUpserts, WithCalculatedFormulas, HasReferencesToOtherSheets
 {
     /*public function collection( Collection $collection )
     {
@@ -29,31 +32,21 @@ class ItemDataImport implements ToModel, SkipsEmptyRows
 
     public function model( array $row )
     {
-        return $this->row($row);
-        
+        if($row[0] === 'No.'){
+            return null;
+        }
+        return $this->row( $row);        
     }
     
     public function row( $row )
     {
-dump($row);    
-        $item = new Item([
-            'name' => 'bullshit',
-            'slug' => 'test-bullshit',
-        ]);
-return $item;
-        $item->save();
         
-        $item2 = Item::create([
-             'name' => 'TEST AGAIN',
-             'slug' => 'test-again-slug',
-        ]);
-ddd($item, $item2);        
-        $index = $row->getIndex();
+        /*$index = $row->getIndex();
         if($index === 1){
             // skip heading row
             return null;
         }
-        $row      = $row->toArray();
+        $row      = $row->toArray();*/
 
     // TRADESKILL INFO        
         $original_tradeskill_name = $row[1]; // PROCESS 
@@ -125,7 +118,7 @@ ddd($item, $item2);
             ]
         );
         
-dump('trade', $tradeskill);        
+//dump('trade', $tradeskill);        
         // upsert created item
         $crafted_item = Item::updateOrCreate(
             [
@@ -145,7 +138,7 @@ dump('trade', $tradeskill);
             ],
         );
         
-  dump('crafted',$crafted_item);
+//  dump('crafted',$crafted_item);
         
         // upsert raw ingredients
         foreach($raw_materials as $i => $raw){
@@ -165,7 +158,7 @@ dump('trade', $tradeskill);
                 ],
             );
         } // end foreach raw
-dump('raw', $raw_materials);
+//dump('raw', $raw_materials);
 
         // upsert refined ingredients
         foreach($refined_materials as $i => $refined){
@@ -186,17 +179,13 @@ dump('raw', $raw_materials);
             );
         } // end foreach raw
         
-dump('refined', $refined_materials);
+//dump('refined', $refined_materials);
 
         // get all materials as one
         $materials = collect($raw_materials)->merge($refined_materials);
-dump('all materials', $materials);        
+//dump('all materials', $materials);        
         // upsert recipe
-        $recipe = Recipe::updateOrCreate(
-            [
-                // unique fields
-                'slug' => $item_slug,
-            ],
+        $recipe = new Recipe(
             [
                 'name' => $crafted_item_name.' Recipe',
                 'slug' => $item_slug,
@@ -205,17 +194,17 @@ dump('all materials', $materials);
                 'item_id' => $crafted_item->id,
             ],
         );
-        
-dump('recipe',$recipe);
-          // attach related models
+
+        // attach related models
         $recipe->tradeskill()->associate($tradeskill);
         $recipe->item()->associate($crafted_item);
-        $recipe->save();
+//dump('recipe',$recipe);
+        /*$recipe->save();
         $recipe->refresh();
-        $recipe->save();
+        $recipe->save();*/
 
         // attach materials
-        /*$materials->each(function($material, $key) use ($recipe) {
+        $materials->each(function($material, $key) use ($recipe) {
         
 //dump('material id: '. $material['model']->id. ', amount: '.$material['amount']);
 
@@ -223,20 +212,25 @@ dump('recipe',$recipe);
             $recipe->ingredients()->attach(
                 $material['model']->id,
                 // also insert amount into pivot table
-                ['amount' => $material['amount']]
+                // can't interact with unsaved recipe but
+                // can't save recipe before this or all inserts fail
+                // because ????????????????
+                // so save slug for later mapping
+                ['amount' => $material['amount'], 'recipe_slug' => $recipe->slug]
             );
-            $recipe->save();
+//            $recipe->save();
 
-            $material['model']->recipes()->attach(
+            /*$material['model']->recipes()->attach(
                 $recipe->id,
                 // also insert amount into pivot table
                 ['amount' => $material['amount']]
-            );
+            );*/
 //            $material['model']->save();
-dump($material['model']);
+//dump($material['model']);
         });
-        */
-ddd('final', $recipe);
+        
+//ddd('final', $recipe);
+        return $recipe;
     }
 
     /**
@@ -267,5 +261,11 @@ ddd('final', $recipe);
         return $slug;
     }
 
-    
+    /**
+     * @return string|array
+     */
+    public function uniqueBy()
+    {
+        return 'slug';
+    }
 }
